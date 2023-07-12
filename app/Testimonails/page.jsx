@@ -26,7 +26,7 @@ const page = () => {
   return (
     <div>
         <Header/>
-        <Menu color={'white'} background={true} border={true} margin={20} active={true}/>
+        <Menu color={'white'} background={true} border={true} margin={20} active={true} hide={true}/>
         <Inside image={'/abt5.jpg'} body={body} text={text}/>
         <div className=''>
         <Footer show={true}/>

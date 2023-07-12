@@ -39,6 +39,7 @@ const page = () => {
         border={true}
         margin={20}
         active={true}
+        hide={true}
       />
       <Inside image={"/abt3.jpg"} body={body} text={text} />
       <div className="">

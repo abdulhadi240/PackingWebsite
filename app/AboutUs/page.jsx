@@ -47,7 +47,7 @@ const page = () => {
   return (
     <div>
         <Header/>
-        <Menu color={'white'} background={true} border={true} margin={20} active={true}/>
+        <Menu color={'white'} background={true} border={true} margin={20} active={true} hide={true}/>
         <Inside image={'/Hero.jpg'} body={body}/>
         <div className=''>
         <Footer show={true}/>

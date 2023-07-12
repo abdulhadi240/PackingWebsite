@@ -14,7 +14,7 @@ const Footer = ({show}) => {
         
         {/*<Map/>*/}
         <div className='mt-4'>
-        <Menu background={false} border={false} color={false} hover={true} margin={6}/>
+        <Menu background={false} border={false} color={false} hover={true} margin={6} hide={false}/>
         </div>
         <Information/>
         <Foot/>

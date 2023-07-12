@@ -7,7 +7,7 @@ export default function Home() {
     <div>
       <Header active={true}/>
       
-      <Menu color={'white'} background={true} border={true} margin={20}/>
+      <Menu color={'white'} background={true} border={true} margin={20} hide={true}/>
       <Footer show={true}/>
     </div>
   )
