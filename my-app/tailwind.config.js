@@ -16,3 +16,6 @@ module.exports = {
   },
   plugins: [],
 }
+
+// bg-[#98ca3e] -- primary
+// bg-[#3364af] -- secondary

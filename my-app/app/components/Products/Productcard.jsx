@@ -3,7 +3,7 @@ import Image from 'next/image'
 import Link from 'next/link'
 const Productcard = ({image , text , buttonText , links , heading}) => {
   return (
-    <div className='w-[400px] h-auto p-4 border-[1px] text-center group cursor-pointer shadow-lg'>
+    <div className='w-[340px] sm:w-[370px] lg:w-[400px] h-auto p-4 border-[2px] text-center group cursor-pointer shadow-lg rounded-md'>
         <div className='flex justify-center group-hover:scale-105 transition-all '>
             <Image src={image} width={250} height={250} alt='product_img'/>
         </div>
