@@ -10,6 +10,7 @@ import {AiOutlineMenu} from 'react-icons/ai'
 import {HiOutlineMenuAlt1} from 'react-icons/hi'
 import Name from "./Name";
 import Menu from "./Menu";
+import MobileMenu from "./MobileMenu";
 
 export const Header = () => {
     const [mobilemenu , setMobileMenu] = useState(true);
@@ -50,20 +51,17 @@ export const Header = () => {
             <HiOutlineMenuAlt1 size={20} className="lg:hidden block mt-10" onClick={()=>{setMobileMenu(true)}}/>
 
         )}
-        {!mobilemenu && (
-            <div className="bg-gray-200 w-44 h-44 border-2 transition delay-300 duration-300">
-                <h1>HOME</h1>
-                <h1>HOME</h1>
-                <h1>HOME</h1>
-                <h1>HOME</h1>
-                <h1>HOME</h1>
-            </div>
-        )}
+        
 
         <div>
           <Image src={"/logo-right.png"} height={200} width={150} />
         </div>
       </div>
+      {/* {!mobilemenu && (
+            <div className="w-64 h-64 rounded-lg absolute top-10 left-[40%] lg:hidden bg-gray-50 ">
+                <MobileMenu/>
+            </div>
+        )} */}
       
     </div>
   );

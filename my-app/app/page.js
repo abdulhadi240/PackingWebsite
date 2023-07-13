@@ -29,7 +29,8 @@ export default function Home() {
          text={'Over the years, PP Woven Sacks have proved their excellence in the packaging unit of several industries.'}
          heading={'PP WOVEN BAGS AND FABRICS'}
          links={'/Product/PPWOVEN'}
-         buttonText={'Read More'}/>
+         buttonText={'Read More'}
+         large={true}/>
          </div>
 
          <div className='flex justify-center sm:block'>
@@ -38,7 +39,8 @@ export default function Home() {
          text={'We are into manufacturing of PP Non Woven Bags in different size'}
          heading={'PP NON-WOVEN BAGS '}
          links={'/Product/PPNONWOVEN'}
-         buttonText={'Read More'}/>
+         buttonText={'Read More'}
+         large={true}/>
          </div>
 
          <div className='flex justify-center sm:block'>
@@ -47,7 +49,8 @@ export default function Home() {
          text={'Our BOPP bags have a volume of 5 kgs - 50 kgs and are suitable for packaging'}
          heading={'BIAXIALLY ORIENTED POLYPROPYLENE'}
          links={'/Product/BOPPS-BAGS'}
-         buttonText={'Read More'}/>
+         buttonText={'Read More'}
+         large={true}/>
          </div>
 
          <div className='flex justify-center sm:block'>
@@ -56,7 +59,8 @@ export default function Home() {
          text={'The Packaging sacks offered by us are designed and manufactured using superior quality cotton '}
          heading={'COTTON BAGS'}
          links={'/Product/COTTON-BAGS'}
-         buttonText={'Read More'}/>
+         buttonText={'Read More'}
+         large={true}/>
          </div>
 
          <div className='flex justify-center sm:block'>
@@ -65,7 +69,8 @@ export default function Home() {
          text={'Our organization is highly rated in the field of providing Twill Jute Bag to its clients'}
          heading={'JUTE BAGS'}
          links={'/Product/JUTE-BAGS'}
-         buttonText={'Read More'}/>
+         buttonText={'Read More'}
+         large={true}/>
          </div>
 
          <div className='flex justify-center sm:block'>
@@ -74,7 +79,8 @@ export default function Home() {
          text={'Our Valve Bags mostly find application in Cement Industry across the world. We have recently added a new product'}
          heading={'CEMENT & BLOCK BOTTOM BAGS'}
          links={'/Product/CEMENT-BAGS'}
-         buttonText={'Read More'}/>
+         buttonText={'Read More'}
+         large={true}/>
          </div>
 
          <div className='flex justify-center sm:block'>
@@ -83,7 +89,8 @@ export default function Home() {
          text={'For transportation and storage of bulk material, we have Big Bags that has a capacity of 200-2500 kgs'}
          heading={'JUMBO /FIBCS / BIG BAGS'}
          links={'/Product/JUMBO-BAGS'}
-         buttonText={'Read More'}/>
+         buttonText={'Read More'}
+         large={true}/>
          </div>
 
       </div>

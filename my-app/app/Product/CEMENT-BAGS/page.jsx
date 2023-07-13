@@ -4,6 +4,8 @@ import Footer from '../../components/Footer/Footer'
 import Menu from '../../components/Menu'
 import Inside from '../../components/Inside'
 import Details from '@/app/components/Products/Details'
+import ProductSlider from '@/app/components/ProductSlider'
+
 const page = () => {
 
     const body = (
@@ -22,6 +24,9 @@ const page = () => {
             <Header />
             <Menu color={'white'} background={true} border={true} margin={20} active={true} hide={true} />
             <Inside image={'/product-back.jpg'}  body={body} />
+            <div className='overflow-hidden'>
+          <ProductSlider/>
+        </div>
             <div className=''>
                 <Footer show={true} />
             </div>
