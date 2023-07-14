@@ -4,6 +4,7 @@ import Name from '../Name'
 import Menu from '../Menu'
 import Information from './Information'
 import Foot from './Foot'
+import Map from '../Map'
 
 const Footer = ({show}) => {
   return (
@@ -17,6 +18,7 @@ const Footer = ({show}) => {
         <Menu background={false} border={false} color={false} hover={true} margin={6} hide={false}/>
         </div>
         <Information/>
+        <Map/>
         <Foot/>
     </div>
   )

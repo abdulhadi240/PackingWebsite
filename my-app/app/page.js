@@ -22,7 +22,7 @@ export default function Home() {
         <hr/>
         <hr/>
       </div>
-      <div className='mt-10 grid grid-rows-1 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-3 gap-10 sm:gap-16'>
+      <div className='mt-10 grid grid-rows-1 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-2 xl:grid-cols-3 gap-10 sm:gap-16'>
         <div className='flex justify-center sm:block'>
         <Productcard
          image={'/n1.jpg'} 

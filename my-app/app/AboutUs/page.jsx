@@ -8,7 +8,7 @@ const page = () => {
     const body = (
         <>
         <div className='mx-14'>
-            <h1 className='text-[24px] text-[#3364af] font-bold'>ABOUT US</h1>
+            <h1 className='text-[24px] text-[#3364af] font-bold xl:pt-10'>ABOUT US</h1>
             <p className='mt-2'>In a span of nearly two decades the company has acquired large market share in Middle East and Africa by adopting honest business policies and following best industry practices for maintaining quality, cost and delivery. 
                 <br className=''/><br/>We cover various segments of business locally and internationally. Our reputed customers are one of the largest manufacturer companies of food grains, spices, sugar and cement in UAE, G.C.C. Countries and international market. With the advanced technology and expertise we managed to meet various customers' requirements and needs with minimum delivery lead times and assured quality.
                 <br className=''/><br/><span className='text-[17px] text-[#98ca3e] font-bold'>Our Motto itself is: "Where Deeds Follow Words."</span></p>

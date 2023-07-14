@@ -18,7 +18,7 @@ export const Header = () => {
 
   return (
     <div className="">
-      <div className="flex h-10 w-full  px-6 sm:px-14 mt-4 justify-between">
+      <div className="flex h-10 w-full lg:px-0    mx-6 sm:mx-14 lg:mx-6 xl:mx-0 mt-4 justify-between">
         <div>
           <Image src={"/logo.png"} height={200} width={150} />
         </div>

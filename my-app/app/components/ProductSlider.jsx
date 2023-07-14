@@ -28,7 +28,7 @@ const ProductSlider = () => {
         }
     };
     return (
-        <div className='cursor-grab lg:px-36 bg-gray-50 p-16'>
+        <div className='cursor-grab lg:px-36 xl:px-64 bg-gray-50 p-16'>
             <h1 className='text-xl font-bold tracking-wide text-[#3364af] mb-5'>Related Products</h1>
             <Carousel
                 responsive={responsive}
