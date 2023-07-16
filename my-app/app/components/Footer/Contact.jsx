@@ -45,7 +45,7 @@ export const Contact = () => {
                   placeholder="Full Name"
                   name="Name"
                   value={name}
-                  className="text-sm rounded-lg w-80 peer h-10 placeholder:pl-2 border-2 value:text-sm"
+                  className="text-sm rounded-lg w-72 sm:w-80 peer h-10 placeholder:pl-2 border-2 value:text-sm"
                   onChange={HandleChange1}
                 />
               </div>
@@ -56,7 +56,7 @@ export const Contact = () => {
                   name="Email"
                   required
                   value={text}
-                  className="text-sm rounded-lg peer w-80 h-10 placeholder:pl-2  border-2"
+                  className="text-sm rounded-lg peer w-72 sm:w-80 h-10 placeholder:pl-2  border-2"
                   onChange={HandleChange}
                 />
               </div>
@@ -67,7 +67,7 @@ export const Contact = () => {
                   name="phone"
                   required
                   value={phone}
-                  className="text-sm placeholder:pl-2  rounded-lg w-80 h-10  border-2"
+                  className="text-sm placeholder:pl-2  rounded-lg w-72 sm:w-80 h-10  border-2"
                   onChange={HandleChange2}
                 />
               </div>
@@ -77,7 +77,7 @@ export const Contact = () => {
                   placeholder="Company Name"
                   name="Company"
                   value={comapny}
-                  className="text-sm placeholder:pl-2  rounded-lg w-80 h-10  border-2"
+                  className="text-sm placeholder:pl-2  rounded-lg  w-72 sm:w-80 h-10  border-2"
                   onChange={HandleChange3}
                 />
               </div>

@@ -1,9 +1,15 @@
+'use client';
 import React from 'react'
 import Image from 'next/image'
+import {motion} from 'framer-motion'
 import Link from 'next/link'
 const Productcard = ({image , text , buttonText , links , heading ,large}) => {
   return (
-    <div className={`${large?'w-[340px] sm:w-[370px] xl:w-[400px]':'w-[240px] sm:w-[300px] xl:w-[300px]'} h-auto p-4 border-[2px] text-center group cursor-pointer shadow-lg rounded-md`}>
+    <motion.div 
+    initial={{ opacity: 0, y: 50 }}
+    whileInView={{opacity: 1, y: 0}}
+    transition={{ duration: 1.5, ease: 'easeOut' }} 
+    className={`${large?'w-[340px] sm:w-[370px] xl:w-[400px]':'w-[240px] sm:w-[300px] xl:w-[300px]'} h-auto p-4 border-[2px] text-center group cursor-pointer shadow-lg rounded-md`}>
         <div className='flex justify-center group-hover:scale-105 transition-all '>
             <Image src={image} width={250} height={250} alt='product_img'/>
         </div>
@@ -16,7 +22,7 @@ const Productcard = ({image , text , buttonText , links , heading ,large}) => {
                 {buttonText}
             </button></Link>
         </div>
-    </div>
+    </motion.div>
   )
 }
 

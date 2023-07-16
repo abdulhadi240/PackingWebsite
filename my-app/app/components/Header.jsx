@@ -1,60 +1,104 @@
 'use client'
-import React, { useState } from "react";
+import React, { useState , useEffect} from "react";
 import Image from "next/image";
 import Info from "./Info";
-import { CiLocationOff, CiLocationOn } from "react-icons/ci";
-import { IoCall, IoLogoClosedCaptioning, IoMdCall, IoMdLocate } from "react-icons/io";
+import {  IoMdCall, IoMdLocate } from "react-icons/io";
 import { GrMail } from "react-icons/gr";
-import { IoLogoWhatsapp,IoLocationSharp } from "react-icons/io";
+import { IoLogoWhatsapp} from "react-icons/io";
 import {AiOutlineMenu} from 'react-icons/ai'
 import {HiOutlineMenuAlt1} from 'react-icons/hi'
-import Name from "./Name";
-import Menu from "./Menu";
-import MobileMenu from "./MobileMenu";
+import {easeInOut, motion} from 'framer-motion'
 
 export const Header = () => {
     const [mobilemenu , setMobileMenu] = useState(true);
+    const [show, setShow] = useState('translate-y-0');
+    const [lastScrollY, setLastScrollY] = useState(0);
+    const [color , setColor] = useState('bg-transparent');
+    const [change , setChange] = useState('');
+
+    
+
+
+
+    
+  const controlNavbar = () => {
+    if (window.scrollY > 200) {
+      if (window.scrollY > lastScrollY && !mobilemenu) {
+        setShow('h-10')
+        setColor('bg-white')
+        
+      } else {
+        setShow('shadow-sm')
+      }
+    } else {
+      setShow('')
+      setColor('bg-white')
+    }
+    setLastScrollY(window.scrollY);
+  }
+
+
+  useEffect(() => {
+    window.addEventListener("scroll", controlNavbar)
+    return () =>
+      window.removeEventListener("scroll", controlNavbar)
+  }, [lastScrollY])
+  
+
+
+
     
 
   return (
-    <div className="">
-      <div className="flex h-10 w-full lg:px-0    mx-6 sm:mx-14 lg:mx-6 xl:mx-0 mt-4 justify-between">
-        <div>
-          <Image src={"/logo.png"} height={200} width={150} />
+    <header
+    initial={{y:-100}}
+    animate={{y:0}}
+     className={` xl:px-24 lg:px-10   w-full h-auto  flex items-center justify-between z-20 sticky top-0 transition-transform duration-300 ${show} ${color} `}>
+      <div className={`flex h-auto w-full lg:px-0    mx-6   mt-1 justify-between `}>
+        <div className="">
+          <Image src={"/logo.png"} height={100} width={120} alt="logo"/>
         </div>
-        <div className="  lg:flex lg:gap-2 hidden mt-8 ">
+        <div className="  gap-2 hidden sm:flex sm:gap-2 mt-8 ">
+          <div className="hidden xl:block">
           <Info
             Icon={IoMdLocate}
             Text={"Find Us"}
             Label={"P.O. Box 20829, Ajman, UAE"}
           />
+          </div>
+          <div className="hidden sm:block">
           <Info
             Icon={IoMdCall}
             Text={"Call us"}
             Label={"+ 971 6 748 2024"}
           />
-          <Info
+          </div>
+          <div className="hidden lg:block">          
+            <Info
             Icon={GrMail}
             Text={"Email us"}
             Label={"info@akmaindustries.com"}
           />
+          </div>
+          <div className="hidden sm:block">
           <Info
             Icon={IoLogoWhatsapp}
             Text={"Product enquiry only"}
             Label={"+971 555 651 604"}
           />
+          </div>
         </div>
         {mobilemenu ? (
-        <AiOutlineMenu size={20} className="lg:hidden block mt-10" onClick={()=>{setMobileMenu(false)}}/>
+        <AiOutlineMenu size={20} className="sm:hidden block mt-10" onClick={()=>{setMobileMenu(false)}}/>
 
         ) : (
-            <HiOutlineMenuAlt1 size={20} className="lg:hidden block mt-10" onClick={()=>{setMobileMenu(true)}}/>
+            <HiOutlineMenuAlt1 size={20} className="sm:hidden block mt-10" onClick={()=>{setMobileMenu(true)}}/>
 
         )}
         
 
         <div>
-          <Image src={"/logo-right.png"} height={200} width={150} />
+          <Image src={"/logo-right.png"} height={100} width={120} alt="logo"/>
         </div>
       </div>
       {/* {!mobilemenu && (
@@ -63,6 +107,6 @@ export const Header = () => {
             </div>
         )} */}
       
-    </div>
+    </header>
   );
 };

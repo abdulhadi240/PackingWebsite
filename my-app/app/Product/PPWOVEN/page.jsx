@@ -9,7 +9,7 @@ import ProductSlider from '@/app/components/ProductSlider'
 const page = () => {
 
     const body = (
-        <div className='lg:mx-20 -mt-20 sm:-mt-32'>
+        <div className='mt-3'>
         <Details heading={'PP (POLYPROPYLENE) WOVEN BAGS AND FABRICS'} image={'/n1.jpg'}>
         Over the years, PP Woven Sacks have proved their excellence in the packaging unit of several industries. 
         These sacks are considered as the toughest packaging bags, wide in demand in the industries of sugar, gains, milling and food. 

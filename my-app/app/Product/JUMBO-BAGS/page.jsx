@@ -9,7 +9,7 @@ import ProductSlider from '@/app/components/ProductSlider'
 const page = () => {
 
     const body = (
-        <div className='lg:mx-20 -mt-20 sm:-mt-32'>
+        <div className='mt-3'>
         <Details heading={'JUMBO /FIBCS / BIG BAGS'} image={'/n9.jpg'}>
         For transportation and storage of bulk material, we have FIBC(Flexible Intermediate Bulk Containers)or Big Bags that has a capacity of 200 kgs-
          2500 kgs and are suitable for Cement, Sugar, Food, Pharma, Fertilizers and other related industries. Our FIBCs are exported to many countries

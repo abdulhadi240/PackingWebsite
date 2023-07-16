@@ -9,7 +9,7 @@ import ProductSlider from '@/app/components/ProductSlider'
 const page = () => {
 
     const body = (
-        <div className='lg:mx-20 -mt-20 sm:-mt-32'>
+        <div className='mt-3'>
         <Details heading={'JUTE BAGS'} image={'/n7.jpg'}>
         Our organization is highly rated in the field of providing Twill Jute Bag to its clients. 
         Our products are known for its unique designing and distinct features such as long term sustaining and high in quality. 

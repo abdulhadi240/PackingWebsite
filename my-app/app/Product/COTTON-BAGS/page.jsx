@@ -8,7 +8,7 @@ import ProductSlider from '@/app/components/ProductSlider'
 const page = () => {
 
     const body = (
-        <div className='lg:mx-20 -mt-20 sm:-mt-32'>
+        <div className='mt-3'>
         <Details heading={'COTTON BAGS'} image={'/n6.jpg'}>
         The Packaging sacks offered by us are designed and manufactured using superior quality cotton and are known for high durability, 
         tear resistance and fine finishing. These custom packaging sacks are available in different color options with drawstring and without drawstring.

@@ -18,7 +18,7 @@ const Footer = ({show}) => {
         <Menu background={false} border={false} color={false} hover={true} margin={6} hide={false}/>
         </div>
         <Information/>
-        <Map/>
+        {/* <Map/> */}
         <Foot/>
     </div>
   )

@@ -9,7 +9,7 @@ import ProductSlider from '@/app/components/ProductSlider'
 const page = () => {
 
     const body = (
-        <div className='lg:mx-20 -mt-20 sm:-mt-32'>
+        <div className='mt-3'>
         <Details heading={'CEMENT & BLOCK BOTTOM BAGS'} image={'/n8.jpeg'}>
         Our Valve Bags mostly find application in Cement Industry across the world. We have recently added a new product -
          the Block Bottom bags to the existing line of Valve Bags products. The demand for Block Bottom Bags is growing rapidly

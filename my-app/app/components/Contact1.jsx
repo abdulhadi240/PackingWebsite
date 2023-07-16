@@ -25,13 +25,14 @@ const Contact1 = () => {
   return (
     <div>
         <div>
-        <div className="w-[100%] mt-20 md:mt-0  h-full ">
+        <div className="w-auto mt-20 md:mt-0  h-full ">
         <div className='font-semibold text-lg sm:block flex justify-center'>Contact Us</div>
           <div className=" flex justify-center ">
             <form
               target="_blank"
               action="https://formspree.io/f/xwkdknqp"
               method="POST"
+              className=''
             >
               <div className="flex flex-col  gap-4">
                 <div>
@@ -41,7 +42,7 @@ const Contact1 = () => {
                       placeholder="Full Name"
                       name="Name"
                       value={name}
-                      className="text-sm rounded-lg w-[450px]  sm:w-[500px] peer h-10 placeholder:pl-2 border-2 value:text-sm"
+                      className="text-sm rounded-lg w-72  sm:w-[500px] peer h-10 placeholder:pl-2 border-2 value:text-sm"
                       onChange={HandleChange1}
                     />
                   </div>
@@ -52,7 +53,7 @@ const Contact1 = () => {
                       name="Email"
                       required
                       value={text1}
-                      className="text-sm rounded-lg peer w-[450px]  sm:w-[500px] h-10 placeholder:pl-2  border-2"
+                      className="text-sm rounded-lg peer w-72 sm:w-[500px] h-10 placeholder:pl-2  border-2"
                       onChange={HandleChange}
                     />
                   </div>
@@ -62,7 +63,7 @@ const Contact1 = () => {
                       placeholder="Subject"
                       name="subject"
                       value={phone}
-                      className="text-sm placeholder:pl-2  rounded-lg w-[450px]  sm:w-[500px] h-10  border-2"
+                      className="text-sm placeholder:pl-2  rounded-lg w-72 sm:w-[500px] h-10  border-2"
                       onChange={HandleChange2}
                     />
                   </div>
@@ -74,7 +75,7 @@ const Contact1 = () => {
                     onChange={HandleChange4}
                     value={message}
                     placeholder="Enter Message"
-                    className="rounded-lg placeholder:text-sm placeholder:pl-2 mt-4 h-20 w-[450px]  sm:w-[500px]"
+                    className="rounded-lg placeholder:text-sm placeholder:pl-2 mt-4 h-20 w-72  sm:w-[500px]"
                   />
                 </div>
               </div>

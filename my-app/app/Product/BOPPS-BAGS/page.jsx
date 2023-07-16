@@ -9,7 +9,7 @@ import ProductSlider from '@/app/components/ProductSlider'
 const page = () => {
 
     const body = (
-        <div className='lg:mx-20 -mt-20 sm:-mt-32'>
+        <div className='mt-3'>
         <Details heading={'PP NON WOVEN ( LAMINATED COATED INSIDE & WITHOUT LAMINATION) BAGS'} image={'/n5.jpg'}>
         Our BOPP bags have a volume of 5 kgs - 50 kgs and are suitable for packaging Detergent Powder, Flour, Animal Feed, Food Grains, etc.
          The outer coated layer of BOPP bags is made attractive and extra glossy by using BOPP film
