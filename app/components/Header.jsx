@@ -63,7 +63,7 @@ export const Header = () => {
           <Info
             Icon={IoMdLocate}
             Text={"Find Us"}
-            Label={"P.O. Box 20829, Ajman, UAE"}
+            Label={"Plot No.705,Industrial Area 2"}
           />
           </div>
           <div className="hidden sm:block">

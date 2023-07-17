@@ -1,4 +1,5 @@
 import Whatsapp from './components/Whatsapp'
+
 import './globals.css'
 import { Inter } from 'next/font/google'
 
@@ -16,6 +17,7 @@ export default function RootLayout({ children }) {
         {children}
         <Whatsapp/>
         </body>
+
     </html>
   )
 }
