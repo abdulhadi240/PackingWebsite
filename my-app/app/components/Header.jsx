@@ -59,7 +59,7 @@ export const Header = () => {
           <Image src={"/logo.png"} height={100} width={120} alt="logo"/>
         </div>
         <div className="  gap-2 hidden sm:flex sm:gap-2 mt-8 ">
-          <div className="hidden xl:block">
+          <div className="hidden sm:block">
           <Info
             Icon={IoMdLocate}
             Text={"Find Us"}
@@ -80,7 +80,7 @@ export const Header = () => {
             Label={"info@akmaindustries.com"}
           />
           </div>
-          <div className="hidden sm:block">
+          <div className="hidden lg:block">
           <Info
             Icon={IoLogoWhatsapp}
             Text={"Product enquiry only"}
@@ -98,7 +98,7 @@ export const Header = () => {
         
 
         <div>
-          <Image src={"/logo-right.png"} height={100} width={120} alt="logo"/>
+          <Image src={"/logo-right.png"} height={120} width={120} alt="logo" style={{ width: "120px", height: "auto" }}/>
         </div>
       </div>
       {/* {!mobilemenu && (

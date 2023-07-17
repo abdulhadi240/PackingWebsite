@@ -14,7 +14,7 @@ export default function Home() {
     </>
   )
   return (
-    <div>
+    <div className='overflow-hidden'>
       <Header active={true}/>
       <Menu color={'white'} background={true} border={true} margin={20} hide={true}/>
       <Inside priority={true} slider={true} image={'/Hero.jpg'} body={body}/>

@@ -56,7 +56,7 @@ const Inside = ({image,body,text, priority , slider}) => {
       )}
         
     </div>
-    <div className='h-auto'>{body}</div>
+    <div className='h-auto '>{body}</div>
     </div>
   )
 }

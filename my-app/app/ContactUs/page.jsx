@@ -35,9 +35,9 @@ const page = () => {
     <hr className="w-80  text-black border-black"/>
     </div>
     <div className="flex justify-center gap-3 mt-4 ">
-      <Link href={'/'}><RiWhatsappFill size={44} rounded color="green" className="border-[1px] shadow-lg p-2 hover:scale-110 cursor-pointer"/></Link>
-      <Link href={'/'}><BsFacebook  size={44} rounded color="blue" className="border-[1px] shadow-lg p-2 hover:scale-110 cursor-pointer"/></Link>
-      <Link href={'/'}><MdEmail size={44} rounded color="maroon" className="border-[1px] shadow-lg p-2 hover:scale-110 cursor-pointer"/></Link>
+      <Link href={'/'}><RiWhatsappFill size={44}  color="green" className="border-[1px] shadow-lg p-2 hover:scale-110 cursor-pointer"/></Link>
+      <Link href={'/'}><BsFacebook  size={44}  color="blue" className="border-[1px] shadow-lg p-2 hover:scale-110 cursor-pointer"/></Link>
+      <Link href={'/'}><MdEmail size={44}  color="maroon" className="border-[1px] shadow-lg p-2 hover:scale-110 cursor-pointer"/></Link>
     </div>
   </div>
   </>
@@ -59,7 +59,7 @@ const page = () => {
         active={true}
         hide={true}
       />
-      <Inside image={"/abt3.jpg"} body={body} text={text} />
+      <Inside priority={true} image={"/abt3.jpg"} body={body} text={text} />
       <div className="">
         <Footer show={false}/>
       </div>

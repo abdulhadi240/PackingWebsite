@@ -4,8 +4,8 @@ import SideMenu from './SideMenu'
 const Details = ({heading,image,children}) => {
   return (
     <>
-    <h1 className='text-3xl text-[#3364af] font-bold text-center sm:text-start'>{heading}</h1>
-    <div className='flex flex-col lg:flex-row  lg:justify-between mt-3'>
+    <h1 className='text-3xl text-[#3364af] font-bold mx-10  text-center sm:text-start'>{heading}</h1>
+    <div className='flex flex-col lg:flex-row mx-10 lg:justify-between mt-3'>
         <div className='sm:flex sm:flex-row sm:gap-10 flex flex-col gap-6'>
         <div className='flex justify-center sm:block'>
             <Image src={image} width={300} height={300} alt='image' className='hover:scale-110 transition'/>
