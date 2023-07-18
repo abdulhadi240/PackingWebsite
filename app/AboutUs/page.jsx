@@ -17,7 +17,7 @@ const page = () => {
         <div>
             <Header />
             <Menu color={'white'} background={true} border={true} margin={20} active={true} hide={true} />
-            <Inside priority={true} image={'/Hero.jpg'} body={body} />
+            <Inside priority={true} image={'/about.png'} body={body} />
             <div className=''>
                 <Footer show={true} />
             </div>

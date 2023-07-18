@@ -13,8 +13,8 @@ const ABout = () => {
                     initial={{ opacity: 0, y: 50 }}
                     whileInView={{ opacity: 1, y: 0 }}
                     transition={{ duration: 0.5, ease: 'easeOut' }}
-                    className='mt-2'>We are known for providing the best quality in the market of PP WOVEN BAG AND BOPP LAMINATION BAGS. The industry is situated at SITE AREA KARACHI and style as CloudFour Packages.
-                    <br className='' /><br />We specialize in serving diverse business sectors both domestically and internationally. Our esteemed
+                    className='mt-2'>We are known for providing the best quality in the market of PP WOVEN BAG AND BOPP LAMINATION BAGS.
+                    We specialize in serving diverse business sectors both domestically and internationally. Our esteemed
                     clientele consists of major manufacturers operating in the global market, specializing in the production of food grains, spices,
                     sugar, and cement. Leveraging our advanced technology and expertise, we consistently meet and exceed our customers' expectations by
                     delivering their requirements promptly and ensuring exceptional quality. Our streamlined processes enable us to achieve minimal

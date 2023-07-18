@@ -20,7 +20,7 @@ const page = () => {
     <div className="flex flex-col-reverse lg:flex-row md:gap-20 mx-20 md:mx-32">
       <div className="h-auto w-auto md:w-auto p-4 flex flex-col gap-4 border-[2px]">
         <h1 className="text-2xl font-bold text-center w-full">Address</h1>
-        <Address text={"Cloud Four Packages"} />
+        <Address text={"CloudFour Packages"} />
         <Address text={"Plot No. 705, Industrial Area 2, First Industrial Street, P.O.Box 35848 , Sharjah, U.A.E."} />
         <Address text={"+ 971 55 965 8218"} />
         <Address text={"info@cloudfourpackages.com"} />
