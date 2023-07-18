@@ -5,7 +5,11 @@ const MainInfo = () => {
     <div>
         <div className='w-full h-[500px] sm:h-64 bg-primary-100 text-white  '>
       <h1 className='flex justify-center text-center pt-8 text-2xl font-bold tracking-wider'>WELCOME!</h1>
-      <p className=' sm:text-center lg:w-auto flex justify-center  mx-10 lg:text-lg lg:py-4 sm:py-0 py-2'>Akma Packaging Industries LLC established in Aug 2004 is a Limited Liability Company based in Ajman, United Arab Emirates. Today we are most trusted and largest manufacturers of PP Woven bags, PP Woven Laminated & Non Laminated bags, PP Woven Photographic printing bags, BOPP bags, PP Non Woven bags, Cotton Bags, Jute bags, AD Star valve type cement bags and FIBC bags (Jumbo bags) in the region. We are pioneers in non woven bags, Jute bags and cotton bags in the GCC.</p>
+      <p className=' sm:text-center lg:w-auto flex justify-center  mx-10 lg:text-lg lg:py-4 sm:py-0 py-2'>
+      CloudFour Packages  is the brand name for best quality of PP WOVEN BAGS AND BOPP LAMINATION BAGS & MANUFACTURER AND EXPORTER OF PET FLAKES. 
+      CloudFour Packages functioning as a leading trade unit since 1980. CloudFour Packages wins the confidence of consumers due to their cost efficient and 
+      reflection of quality.
+      </p>
     </div>
 
     <div className=' lg:mx-20 mt-6'>

@@ -20,7 +20,7 @@ const Inside = ({image,body,text, priority , slider}) => {
          >
              <div>
                  <img
-                     src="/Hero.jpg"
+                     src="/bg-1.jpg"
                      className="aspect-[16/10] md:aspect-auto object-cover"
                      alt='image'
                  />
@@ -29,7 +29,7 @@ const Inside = ({image,body,text, priority , slider}) => {
 
              <div>
                  <img
-                     src="/Hero.jpg"
+                     src="/bg-2.jpg"
                      className="aspect-[16/10] md:aspect-auto object-cover"
                      alt='image'
                  />
@@ -38,7 +38,7 @@ const Inside = ({image,body,text, priority , slider}) => {
 
              <div>
                  <img
-                     src="/Hero.jpg"
+                     src="/bg-3.jpg"
                      className="aspect-[16/10] md:aspect-auto object-cover"
                      alt='image'
                  />
