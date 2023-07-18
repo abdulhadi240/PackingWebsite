@@ -6,7 +6,6 @@ import Inside from './components/Inside'
 import MainInfo from './components/MainInfo'
 
 
-
 export default function Home() {
 
 

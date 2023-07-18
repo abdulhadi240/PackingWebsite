@@ -1,4 +1,5 @@
 import Whatsapp from './components/Whatsapp'
+import ChatwoptWidget from './components/ChatWoot'
 
 import './globals.css'
 import { Inter } from 'next/font/google'
@@ -15,7 +16,9 @@ export default function RootLayout({ children }) {
     <html lang="en">
       <body className={inter.className}>
         {children}
+        <ChatwoptWidget/>
         <Whatsapp/>
+
         </body>
 
     </html>
