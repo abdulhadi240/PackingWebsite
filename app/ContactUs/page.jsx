@@ -20,11 +20,11 @@ const page = () => {
     <div className="flex flex-col-reverse lg:flex-row md:gap-20 mx-20 md:mx-32">
       <div className="h-auto w-auto md:w-auto p-4 flex flex-col gap-4 border-[2px]">
         <h1 className="text-2xl font-bold text-center w-full">Address</h1>
-        <Address text={"Akma Packaging Industries LLC."} />
-        <Address text={"P.O. Box 20829, Ajman, United Arab Emirates."} />
-        <Address text={"+ 971 6 748 2024"} />
-        <Address text={"mushfique@akmaindustries.com"} />
-        <Address text={"www.akmaindustries.com"} />
+        <Address text={"Cloud Four Packages"} />
+        <Address text={"Plot No. 705, Industrial Area 2, First Industrial Street, P.O.Box 35848 , Sharjah, U.A.E."} />
+        <Address text={"+ 971 55 965 8218"} />
+        <Address text={"info@cloudfourpackages.com"} />
+        <Address text={"www.cloudfourpackages.com"} />
       </div>
       <Contact1/>
     </div>

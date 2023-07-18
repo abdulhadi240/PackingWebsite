@@ -44,6 +44,15 @@ const Inside = ({image,body,text, priority , slider}) => {
                  />
                  
              </div>
+
+             {/* <div>
+                 <img
+                     src="/bg-4.jpg"
+                     className="aspect-[16/10] md:aspect-auto object-cover"
+                     alt='image'
+                 />
+                 
+             </div> */}
          </Carousel>
      </div>
       ) : (
