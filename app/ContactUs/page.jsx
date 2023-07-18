@@ -35,9 +35,9 @@ const page = () => {
     <hr className="w-80  text-black border-black"/>
     </div>
     <div className="flex justify-center gap-3 mt-4 ">
-      <Link href={'/'}><RiWhatsappFill size={44}  color="green" className="border-[1px] shadow-lg p-2 hover:scale-110 cursor-pointer"/></Link>
-      <Link href={'/'}><BsFacebook  size={44}  color="blue" className="border-[1px] shadow-lg p-2 hover:scale-110 cursor-pointer"/></Link>
-      <Link href={'/'}><MdEmail size={44}  color="maroon" className="border-[1px] shadow-lg p-2 hover:scale-110 cursor-pointer"/></Link>
+      <Link href={'https://api.whatsapp.com/send/?phone=%2B971555651604&text&type=phone_number&app_absent=0'} target="_blank"><RiWhatsappFill size={44}  color="green" className="border-[1px] shadow-lg p-2 hover:scale-110 cursor-pointer"/></Link>
+      <Link href={'https://www.facebook.com/profile.php?id=100094634150621&mibextid=LQQJ4d'} target='_blank'><BsFacebook  size={44}  color="blue" className="border-[1px] shadow-lg p-2 hover:scale-110 cursor-pointer"/></Link>
+      <Link href={'https://mail.google.com/mail/?view=cm&to=info@cloudfourpackages.com&su=Your%20Subject&body=Your%20Message'} target="_blank"><MdEmail size={44}  color="maroon" className="border-[1px] shadow-lg p-2 hover:scale-110 cursor-pointer"/></Link>
     </div>
   </div>
   </>

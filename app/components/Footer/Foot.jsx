@@ -6,7 +6,7 @@ import Link from 'next/link'
 const Foot = () => {
   return (
     <div className='mt-5 w-full h-auto  text-center bg-primary-100 text-white sm:flex sm:justify-between '>
-      <div className='mx-10 w-a text-sm sm:text-lg test-center sm:text-start   mt-[3px]'>© Akma Packaging Industries LLC. <span className='hidden'>ALL RIGHTS RESERVED</span></div>
+      <div className='mx-10 w-a text-sm sm:text-lg test-center sm:text-start   mt-[3px]'>©CloudFour Packages <span className='hidden'>ALL RIGHTS RESERVED</span></div>
       <div className='flex flex-row gap-4 mt-[3px] sm:justify-normal justify-center'>
         <Link href={'https://www.facebook.com/profile.php?id=100094634150621&mibextid=LQQJ4d'} target='_blank'><FaFacebookF size={25} className='hover:text-secondary-100 cursor-pointer' /></Link>
         <AiFillYoutube size={25} className='hover:text-secondary-100 cursor-pointer'/>
