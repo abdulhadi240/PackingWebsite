@@ -50,41 +50,47 @@ export const Header = () => {
     
 
   return (
-    <header
+    <motion.header
     initial={{y:-100}}
     animate={{y:0}}
+    transition={{duration:1}}
      className={` xl:px-24 lg:px-10   w-full h-auto  flex items-center justify-between z-20 sticky top-0 transition-transform duration-300 ${show} ${color} `}>
-      <div className={`flex h-auto w-full lg:px-0    mx-6   mt-1 justify-between `}>
-        <div className="">
-          <Image src={"/logo.png"} height={100} width={120} alt="logo"/>
+      <div className={`flex h-24 w-full lg:px-0 mt-1 justify-between `}>
+        <div className="-mt-6">
+          <Image src={"/L.png"} height={200} width={170} alt="logo"/>
         </div>
         <div className="  gap-2 hidden sm:flex sm:gap-2 mt-8 ">
           <div className="hidden sm:block">
           <Info
             Icon={IoMdLocate}
-            Text={"Find Us"}
+            Text={"Locate Us"}
             Label={"Plot No.705,Industrial Area 2"}
+            src={'https://www.google.com/maps/search/Plot+No.+705,+Industrial+Area+2,+First+Industrial+Street,+Sharjah,+P.O.+Box+35848,+Sharjah,+U.A.E./@25.3152496,55.3944698,17z/data=!3m1!4b1?entry=ttu'}
+            
           />
           </div>
           <div className="hidden sm:block">
           <Info
             Icon={IoMdCall}
             Text={"Call us"}
-            Label={"+ 971 6 748 2024"}
+            Label={"+971 555 651 604"}
+            src={'/'}
           />
           </div>
           <div className="hidden lg:block">          
             <Info
             Icon={GrMail}
             Text={"Email us"}
-            Label={"info@akmaindustries.com"}
+            Label={"info@cloudfourpackages.com"}
+            src={'https://mail.google.com/mail/?view=cm&to=info@cloudfourpackages.com&su=Your%20Subject&body=Your%20Message'}
           />
           </div>
           <div className="hidden lg:block">
           <Info
             Icon={IoLogoWhatsapp}
-            Text={"Product enquiry only"}
+            Text={"Whatsapp"}
             Label={"+971 555 651 604"}
+            src={'https://api.whatsapp.com/send/?phone=%2B971555651604&text&type=phone_number&app_absent=0'}
           />
           </div>
         </div>
@@ -97,8 +103,8 @@ export const Header = () => {
         )}
         
 
-        <div>
-          <Image src={"/logo-right.png"} height={120} width={120} alt="logo" style={{ width: "120px", height: "auto" }}/>
+        <div className="-mt-6">
+          <Image src={"/L.png"} height={200} width={170} alt="logo"/>
         </div>
       </div>
       {/* {!mobilemenu && (
@@ -107,6 +113,6 @@ export const Header = () => {
             </div>
         )} */}
       
-    </header>
+    </motion.header>
   );
 };

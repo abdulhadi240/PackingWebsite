@@ -19,7 +19,7 @@ const SUB = () => {
     <div>
         {data.map((data, id) => {
               return (
-                <Link href={data.url}><div key={data.id} className='w-64 h-auto p-4 bg-[#98ca3e] hover:bg-[#3364af]'>{data.name}</div></Link>
+                <Link href={data.url}><div key={data.id} className='w-64 h-auto p-4 bg-primary-100 hover:bg-secondary-100'>{data.name}</div></Link>
               )
             })}
     </div>

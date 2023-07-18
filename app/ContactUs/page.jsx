@@ -30,7 +30,7 @@ const page = () => {
     </div>
     </div>
     <div className="sm:mt-10">
-    <h1 className="text-2xl font-bold text-[#98ca3e] flex justify-center text-center">OR</h1>
+    <h1 className="text-2xl font-bold text-primary-100 flex justify-center text-center">OR</h1>
     <div className="flex justify-center ">
     <hr className="w-80  text-black border-black"/>
     </div>
@@ -44,7 +44,7 @@ const page = () => {
   );
 
   const text = (
-    <div className="bg-[#add774] sm:w-72 sm:h-24 p-auto text-center absolute  text-white font-bold sm:text-2xl tracking-wide sm:opacity-80">
+    <div className="bg-primary-100 sm:w-72 sm:h-24 p-auto text-center absolute  text-white font-bold sm:text-2xl tracking-wide sm:opacity-80">
       <h1 className="mt-2 sm:block hidden">CONTACT US</h1>
     </div>
   );

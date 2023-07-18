@@ -30,7 +30,7 @@ const Contact1 = () => {
           <div className=" flex justify-center ">
             <form
               target="_blank"
-              action="https://formspree.io/f/xwkdknqp"
+              action="https://formspree.io/f/xoqovvzg"
               method="POST"
               className=''
             >
@@ -82,7 +82,7 @@ const Contact1 = () => {
 
               <button
                 type="submit"
-                className="p-2 w-full mt-4 h-10 rounded-lg bg-[#3364af] hover:bg-blue-800 text-white mb-4"
+                className="p-2 w-full mt-4 h-10 rounded-lg bg-secondary-100 hover:secondary-100 text-white mb-4"
               >
                 Send Message
               </button>

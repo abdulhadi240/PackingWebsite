@@ -10,13 +10,13 @@ const Name = ({ Text, border, background, hover, TextHover, active, submenu }) =
   return (
     <div onMouseEnter={() => setShow(true)} onMouseLeave={() => setShow(false)}>
       {submenu ? (
-        <div className={`flex justify-between group sm:w-[120px] lg:w-[180px] xl:w-[180px] text-center ${border ? 'border-r-[0px]' : 'border-r-[0px]'}  h-[40px]  pt-2 border-white  font-bold ${hover ? 'hover:bg-[#3364af]' : ''}  ${TextHover ? 'hover:text-[#3364af]' : ''} cursor-pointer transition`}>
+        <div className={`flex justify-between group sm:w-[120px] lg:w-[180px] xl:w-[180px] text-center ${border ? 'border-r-[0px]' : 'border-r-[0px]'}  h-[40px]  pt-2 border-white  font-bold ${hover ? 'hover:bg-secondary-100' : ''}  ${TextHover ? 'hover:text-secondary-100' : ''} cursor-pointer transition`}>
         {Text}
           <AiFillCaretDown className='mt-[2px] hidden sm:block' size={20}/>
         
       </div>
       ) : (
-        <div className={` group w-[150px] lg:w-[180px] xl:w-[180px] text-center ${border ? 'border-r-[0px]' : 'border-r-[0px]'}  h-[40px]  pt-2 border-white  font-bold ${hover ? 'hover:bg-[#3364af]' : ''}  ${TextHover ? 'hover:text-[#3364af]' : ''} cursor-pointer transition`}>
+        <div className={` group w-[150px] lg:w-[180px] xl:w-[180px] text-center ${border ? 'border-r-[0px]' : 'border-r-[0px]'}  h-[40px]  pt-2 border-white  font-bold ${hover ? 'hover:bg-secondary-100' : ''}  ${TextHover ? 'hover:text-secondary-100' : ''} cursor-pointer transition`}>
         {Text}
         
           

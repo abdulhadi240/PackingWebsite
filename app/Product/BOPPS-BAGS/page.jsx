@@ -122,7 +122,7 @@ const page = () => {
                 </div>
             </Details1>
 
-            <div className='lg:h-36 h-auto w-full bg-[#068ea8] text-center flex justify-center mt-10'>
+            <div className='lg:h-36 h-auto w-full bg-secondary-100-100 text-center flex justify-center mt-10'>
                 <h1
                     className='mx-16  my-10 text-white text-lg font-bold'>
                     BOPP bags offer a combination of visual appeal, strength, durability, and moisture resistance, making them a popular choice for 

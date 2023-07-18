@@ -34,7 +34,7 @@ export const Contact = () => {
       <div className=" flex justify-center ">
         <form
           target="_blank"
-          action="https://formspree.io/f/xwkdknqp"
+          action="https://formspree.io/f/xoqovvzg"
           method="POST"
         >
           <div className="flex flex-col lg:flex-row gap-4">
@@ -45,7 +45,7 @@ export const Contact = () => {
                   placeholder="Full Name"
                   name="Name"
                   value={name}
-                  className="text-sm rounded-lg w-72 sm:w-80 peer h-10 placeholder:pl-2 border-2 value:text-sm"
+                  className="text-sm rounded-lg w-72 sm:w-80 lg:w-96 peer h-10 placeholder:pl-2 border-2 value:text-sm"
                   onChange={HandleChange1}
                 />
               </div>
@@ -56,7 +56,7 @@ export const Contact = () => {
                   name="Email"
                   required
                   value={text}
-                  className="text-sm rounded-lg peer w-72 sm:w-80 h-10 placeholder:pl-2  border-2"
+                  className="text-sm rounded-lg peer w-72 sm:w-80 lg:w-96 h-10 placeholder:pl-2  border-2"
                   onChange={HandleChange}
                 />
               </div>
@@ -67,7 +67,7 @@ export const Contact = () => {
                   name="phone"
                   required
                   value={phone}
-                  className="text-sm placeholder:pl-2  rounded-lg w-72 sm:w-80 h-10  border-2"
+                  className="text-sm placeholder:pl-2  rounded-lg w-72 sm:w-80 lg:w-96 h-10  border-2"
                   onChange={HandleChange2}
                 />
               </div>
@@ -77,7 +77,7 @@ export const Contact = () => {
                   placeholder="Company Name"
                   name="Company"
                   value={comapny}
-                  className="text-sm placeholder:pl-2  rounded-lg  w-72 sm:w-80 h-10  border-2"
+                  className="text-sm placeholder:pl-2  rounded-lg  w-72 sm:w-80 lg:w-96 h-10  border-2"
                   onChange={HandleChange3}
                 />
               </div>
@@ -89,7 +89,7 @@ export const Contact = () => {
               >
                 Select an option
               </label>
-              <select className="bg-white border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-[#3364af] focus:border-[#3364af] block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500">
+              <select className="bg-white border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-secondary-100 focus:border-secondary-100 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:secondary-100 dark:focus:border-blue-500">
                 <option value="PP Non Woven Bags">PP Non Woven Bags</option>
                 <option value="PP Woven Laminated Bags">
                   PP Woven Laminated Bags
@@ -121,7 +121,7 @@ export const Contact = () => {
 
           <button
             type="submit"
-            className="p-2 w-full mt-4 h-10 rounded-lg bg-[#3364af] hover:bg-blue-800 text-white mb-4"
+            className="p-2 w-full mt-4 h-10 rounded-lg bg-secondary-100 hover:bg-blue-800 text-white mb-4"
           >
             Send Message
           </button>

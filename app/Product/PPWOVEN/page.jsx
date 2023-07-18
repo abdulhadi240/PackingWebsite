@@ -154,7 +154,7 @@ const page = () => {
                 </div>
             </Details1>
 
-            <div className='lg:h-36 h-auto w-full bg-[#068ea8] text-center flex justify-center mt-10'>
+            <div className='lg:h-36 h-auto w-full bbg-secondary-100 text-center flex justify-center mt-10'>
                 <h1
                  className='mx-16  my-10 text-white text-lg font-bold'>
                     These advantages make PP woven bags and fabrics a popular choice for packaging and transportation across industries, including
