@@ -109,9 +109,12 @@ export const Header = () => {
         </div>
       </div>
       {!mobilemenu && (
-            <div className="fixed top-0 bg-primary-100 z-50 sm:hidden ">
+            <motion.div initial={{x:-400}}
+            animate={{x:0}}
+            transition={{delay:1}} 
+            className="fixed top-0 bg-primary-100 z-50 sm:hidden ">
                 <MobileMenu setMobileMenu={setMobileMenu} color={'white'} background={true} border={true} margin={20} hide={true}/>
-            </div>
+            </motion.div>
         )}
       
     </motion.header>
