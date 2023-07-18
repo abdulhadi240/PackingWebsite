@@ -8,6 +8,7 @@ import { IoLogoWhatsapp} from "react-icons/io";
 import {AiOutlineMenu} from 'react-icons/ai'
 import {HiOutlineMenuAlt1} from 'react-icons/hi'
 import {easeInOut, motion} from 'framer-motion'
+import MobileMenu from "./MobileMenu";
 
 export const Header = () => {
     const [mobilemenu , setMobileMenu] = useState(true);
@@ -107,11 +108,11 @@ export const Header = () => {
           <Image src={"/L.png"} height={200} width={170} alt="logo"/>
         </div>
       </div>
-      {/* {!mobilemenu && (
-            <div className="w-64 h-64 rounded-lg absolute top-10 left-[40%] lg:hidden bg-gray-50 ">
-                <MobileMenu/>
+      {!mobilemenu && (
+            <div className="fixed top-0 bg-primary-100 z-50 sm:hidden ">
+                <MobileMenu setMobileMenu={setMobileMenu} color={'white'} background={true} border={true} margin={20} hide={true}/>
             </div>
-        )} */}
+        )}
       
     </motion.header>
   );
