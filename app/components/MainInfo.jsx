@@ -27,18 +27,17 @@ const MainInfo = () => {
 
             Choose CloudFour Packages as your preferred packaging partner and experience the utmost professionalism, reliability, and product quality. We look forward to serving you and contributing to the success of your business.</p>
         </div>
+        {show?(
+        <h1 className='text-secondary-100 font-bold ' onClick={()=>{setShow(false)}}>Show Less ...</h1>
+
+        ):(
+          <h1 className='text-secondary-100 font-bold mt-6' onClick={()=>{setShow(true)}}>Show More ...</h1>
+
+        )}
 
       </div>
       
-        {show ? (
-          <div className='bg-primary-100  w-full'>
-          <h1 className='text-secondary-100 sm:hidden h-6 font-semi-bold transition-all' onClick={() => setShow(false)}>See Less ...</h1>
-          </div>
-        ) : (
-          <div className='bg-primary-100  w-full'>
-          <h1 className='text-secondary-100 sm:hidden h-6 font-bold pt-6 transition-all ' onClick={() => setShow(true)}>See More ...</h1>
-          </div>
-        )}
+        
       
 
       <div className=' lg:mx-20 mt-6'>

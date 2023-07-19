@@ -18,10 +18,10 @@ const MobileMenu = ({setMobileMenu,border , background , color , hover , margin 
     <AiOutlineClose size={24} color='white'/>
     </div>
 
-    <div className='z-50'>
-      <BsWhatsapp/>
-      <FaFacebook/>
-      <MdEmail/>
+    <div className='z-50 mt-32 flex justify-center gap-4 '>
+      <Link href={'https://mail.google.com/mail/?view=cm&to=info@cloudfourpackages.com&su=Your%20Subject&body=Your%20Message'} target='_balnk'><MdEmail size={40} color='white'/></Link>
+      <Link href={'https://api.whatsapp.com/send/?phone=%2B971555651604&text&type=phone_number&app_absent=0'} target='_blank'><BsWhatsapp size={40} color='white'/></Link>
+      <Link href={'https://www.facebook.com/profile.php?id=100094634150621&mibextid=LQQJ4d'} target='_blank'><FaFacebook size={40} color='white'/></Link>
     </div>
 </div>
   )
