@@ -4,10 +4,10 @@ import Menu from './components/Menu'
 import Inside from './components/Inside'
 import MainInfo from './components/MainInfo'
 import dynamic from 'next/dynamic'
-import Counter from './components/Counter'
 
 
 const Footer = dynamic(()=>import('./components/Footer/Footer'))
+const Counter = dynamic(()=>import('./components/Counter'))
 
 
 export default function Home() {

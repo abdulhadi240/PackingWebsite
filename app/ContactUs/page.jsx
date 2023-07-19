@@ -24,6 +24,7 @@ const page = () => {
         <Address text={"Plot No. 705, Industrial Area 2, First Industrial Street, P.O.Box 35848 , Sharjah, U.A.E."} />
         <Address text={"+ 971 55 965 8218"} />
         <Address text={"info@cloudfourpackages.com"} />
+        <Address text={"sales@cloudfourpackages.com"} />
         <Address text={"www.cloudfourpackages.com"} />
       </div>
       <Contact1/>
