@@ -1,9 +1,11 @@
 import Image from 'next/image'
 import { Header } from './components/Header'
 import Menu from './components/Menu'
-import Footer from './components/Footer/Footer'
 import Inside from './components/Inside'
 import MainInfo from './components/MainInfo'
+import dynamic from 'next/dynamic'
+
+const Footer = dynamic(()=>import('./components/Footer/Footer'))
 
 
 export default function Home() {

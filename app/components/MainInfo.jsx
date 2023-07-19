@@ -1,5 +1,7 @@
 import React from 'react'
-import Productcard from './Products/Productcard'
+import dynamic from 'next/dynamic'
+
+const Productcard = dynamic(()=>import('./Products/Productcard'))
 const MainInfo = () => {
   return (
     <div>
