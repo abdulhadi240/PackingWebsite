@@ -1,29 +1,45 @@
-import React from 'react'
+'use client'
+import React, { useState } from 'react'
 import dynamic from 'next/dynamic'
 
-const Productcard = dynamic(()=>import('./Products/Productcard'))
+const Productcard = dynamic(() => import('./Products/Productcard'))
 const MainInfo = () => {
+  const [show, setShow] = useState(true)
   return (
     <div>
-      <div className='w-full h-auto pt-4 pb-4 bg-primary-100 text-white  '>
-        <h1 className='flex justify-center text-center pt-8 text-2xl font-bold tracking-wider'>WELCOME!</h1>
-        <p className=' sm:text-center lg:w-auto flex justify-center  mx-10 lg:text-lg lg:py-4 sm:py-0 py-2'>
-          Introducing CloudFour Packages: Your Trusted Provider of High-Quality PP Woven Bags, BOPP Lamination Bags,  paper Sack , OPP prineted rolls and PP transparent laminated sheets 
+      <div className='bg-primary-100 transition-al'>
+        <div className={`w-full ${show ? 'h-auto' : 'h-[500px]'}  sm:h-auto pt-4   text-white transition-all bg-primary-100 `}>
+          <h1 className='flex justify-center text-center pt-8 text-2xl font-bold tracking-wider transition-all'>WELCOME!</h1>
+          <p className=' sm:text-center lg:w-auto flex justify-center  mx-10 lg:text-lg lg:py-4 sm:py-0 py-2 transition-all'>
+            Introducing CloudFour Packages: Your Trusted Provider of High-Quality PP Woven Bags, BOPP Lamination Bags,  paper Sack , OPP prineted rolls and PP transparent laminated sheets
 
-          Established in 1980, CloudFour Packages has emerged as a prominent and trusted brand in the packaging industry. With a focus on delivering superior quality products, we specialize in manufacturing and exporting top-of-the-line PP woven bags, BOPP lamination bags, and PET flakes.
+            Established in 1980, CloudFour Packages has emerged as a prominent and trusted brand in the packaging industry. With a focus on delivering superior quality products, we specialize in manufacturing and exporting top-of-the-line PP woven bags, BOPP lamination bags, and PET flakes.
 
-          Our commitment to excellence and customer satisfaction has propelled us to the forefront of the market, where we have gained the trust and confidence of consumers worldwide. We take pride in our ability to provide cost-efficient solutions that never compromise on quality.
+            Our commitment to excellence and customer satisfaction has propelled us to the forefront of the market, where we have gained the trust and confidence of consumers worldwide. We take pride in our ability to provide cost-efficient solutions that never compromise on quality.
 
-          At CloudFour Packages, we understand the importance of packaging in safeguarding products and enhancing brand value. That's why our PP woven bags and BOPP lamination bags are meticulously crafted using advanced techniques and state-of-the-art machinery. The result is a range of durable, reliable, and visually appealing packaging solutions that meet the highest industry standards.
+            At CloudFour Packages, we understand the importance of packaging in safeguarding products and enhancing brand value. That's why our PP woven bags and BOPP lamination bags are meticulously crafted using advanced techniques and state-of-the-art machinery. The result is a range of durable, reliable, and visually appealing packaging solutions that meet the highest industry standards.
 
-          In addition to our expertise in packaging solutions, we have also ventured into the production and export of PET flakes. Our stringent quality control processes ensure that these flakes are of the highest purity, making them suitable for various applications in the plastic industry.
+            In addition to our expertise in packaging solutions, we have also ventured into the production and export of PET flakes. Our stringent quality control processes ensure that these flakes are of the highest purity, making them suitable for various applications in the plastic industry.
 
-          Over the years, CloudFour Packages has built a solid reputation for delivering excellence, meeting deadlines, and providing exceptional customer service. Our professional team of experts is committed to understanding and fulfilling our customers' unique requirements, ensuring that we exceed their expectations with every interaction.
+            Over the years, CloudFour Packages has built a solid reputation for delivering excellence, meeting deadlines, and providing exceptional customer service. Our professional team of experts is committed to understanding and fulfilling our customers' unique requirements, ensuring that we exceed their expectations with every interaction.
 
-          As a socially responsible company, we are committed to sustainable practices and eco-friendly initiatives. We strive to minimize our environmental impact by promoting recycling and adopting greener manufacturing processes.
+            As a socially responsible company, we are committed to sustainable practices and eco-friendly initiatives. We strive to minimize our environmental impact by promoting recycling and adopting greener manufacturing processes.
 
-          Choose CloudFour Packages as your preferred packaging partner and experience the utmost professionalism, reliability, and product quality. We look forward to serving you and contributing to the success of your business.</p>
+            Choose CloudFour Packages as your preferred packaging partner and experience the utmost professionalism, reliability, and product quality. We look forward to serving you and contributing to the success of your business.</p>
+        </div>
+
       </div>
+      
+        {show ? (
+          <div className='bg-primary-100  w-full'>
+          <h1 className='text-secondary-100 sm:hidden h-6 font-semi-bold transition-all' onClick={() => setShow(false)}>See Less ...</h1>
+          </div>
+        ) : (
+          <div className='bg-primary-100  w-full'>
+          <h1 className='text-secondary-100 sm:hidden h-6 font-bold pt-6 transition-all ' onClick={() => setShow(true)}>See More ...</h1>
+          </div>
+        )}
+      
 
       <div className=' lg:mx-20 mt-6'>
         <div className='flex justify-center text-3xl'>
@@ -95,7 +111,7 @@ const MainInfo = () => {
               large={true} />
           </div>
 
-         
+
 
         </div>
       </div>
