@@ -111,7 +111,7 @@ const page = () => {
                         </li>
 
                         <li className='mt-3'>
-                            <span className='text-md'><Points text={'Flour Bag ( 20 kgs to 50 kgs)'}/></span>
+                            <span className='text-md'><Points text={'Flour Bag ( 5 kgs to 50 kgs)'}/></span>
                             
                         </li>
                         <li className='mt-3'>
