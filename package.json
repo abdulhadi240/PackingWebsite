@@ -18,9 +18,13 @@
     "react": "18.2.0",
     "react-dom": "18.2.0",
     "react-icons": "^4.10.1",
+    "react-intersection-observer": "^9.5.2",
     "react-multi-carousel": "^2.8.4",
     "react-responsive-carousel": "^3.2.23",
     "sharp": "^0.32.3",
-    "tailwindcss": "3.3.2"
+    "tailwindcss": "^3.3.2"
+  },
+  "devDependencies": {
+    "daisyui": "^3.2.1"
   }
 }

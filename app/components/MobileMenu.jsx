@@ -2,6 +2,9 @@ import React from 'react'
 import SubMenuName from './SubMenuName'
 import Link from 'next/link'
 import {AiOutlineClose} from 'react-icons/ai'
+import { BsWhatsapp } from 'react-icons/bs'
+import { FaFacebook } from 'react-icons/fa'
+import { MdEmail } from 'react-icons/md'
 const MobileMenu = ({setMobileMenu,border , background , color , hover , margin , active,hide}) => {
   return (
     <div className='h-screen w-screen  mt-24 text-xl '>
@@ -13,6 +16,12 @@ const MobileMenu = ({setMobileMenu,border , background , color , hover , margin 
     </div>
     <div className='absolute top-5 right-10 transition-all' onClick={()=>{setMobileMenu(true)}}>
     <AiOutlineClose size={24} color='white'/>
+    </div>
+
+    <div className='z-50'>
+      <BsWhatsapp/>
+      <FaFacebook/>
+      <MdEmail/>
     </div>
 </div>
   )
