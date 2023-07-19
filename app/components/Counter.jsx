@@ -91,7 +91,7 @@ const Counter = () => {
 
   return (
     <div className='mb-10'>
-    <div ref={counterRef} className="grid grid-cols-2 lg:flex lg:flex-row justify-center gap-6 items-center mt-8">
+    <div ref={counterRef} className="grid grid-cols-2 lg:flex lg:flex-row justify-center gap-16 items-center mt-8">
       <div className="text-center mx-6">
         <div className="text-4xl sm:text-6xl font-bold text-gray-800">{years}+</div>
         <div className="text-gray-600">Years of Experience</div>
