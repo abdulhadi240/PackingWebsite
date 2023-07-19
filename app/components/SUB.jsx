@@ -6,7 +6,7 @@ const SUB = () => {
     { id: 2, name: "PP NON WOVEN BAGS", url: "/Product/PPNONWOVEN" },
     { id: 3, name: "BOPP BAGS", url: "/Product/BOPPS-BAGS" },
     { id: 4, name: "JUTE BAGS", url: "/Product/JUTE-BAGS" },
-    { id: 5, name: " OPP ROLLS", url: "/Product/OPP-ROLLS" },
+    { id: 5, name: " OPP PRINTED ROLLS", url: "/Product/OPP-ROLLS" },
     { id: 6, name: "PAPER BAGS", url: "/Product/PAPERBAGS" },
     { id: 7, name: "JUMBO /FIBCS / BIG BAGS", url: "/Product/JUMBO-BAGS" },
     

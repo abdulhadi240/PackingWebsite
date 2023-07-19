@@ -19,30 +19,30 @@ const SideMenu = ({active}) => {
 
         <Link href={'/Product/BOPPS-BAGS'}><div className={`${active ? 'bg-secondary-100' : 'bg-primary-100'} w-auto p-2 hover:bg-secondary-100 text-white font-semibold flex gap-2 transition-all`}>
             <AiFillShopping className='mt-[2px]'/>
-        BOPP Bags
-        </div></Link>
-
-
-        <Link href={'/Product/COTTON-BAGS'}><div className={`${active ? 'bg-secondary-100' : 'bg-primary-100'} w-auto p-2 hover:bg-secondary-100 text-white font-semibold flex gap-2 transition-all`}>
-            <AiFillShopping className='mt-[2px]'/>
-        OPP Rolls
+        BOPP BAGS
         </div></Link>
 
 
         <Link href={'/Product/OPP-ROLLS'}><div className={`${active ? 'bg-secondary-100' : 'bg-primary-100'} w-auto p-2 hover:bg-secondary-100 text-white font-semibold flex gap-2 transition-all`}>
             <AiFillShopping className='mt-[2px]'/>
-        Jute Bags
+        OPP PRINTED ROLLS
         </div></Link>
 
 
-        <Link href={'/Product/PAPAERBAGS'}><div className={`${active ? 'bg-secondary-100' : 'bg-primary-100'} w-auto p-2 hover:bg-secondary-100 text-white font-semibold flex gap-2 transition-all`}>
+        <Link href={'/Product/JUTE-BAGS'}><div className={`${active ? 'bg-secondary-100' : 'bg-primary-100'} w-auto p-2 hover:bg-secondary-100 text-white font-semibold flex gap-2 transition-all`}>
             <AiFillShopping className='mt-[2px]'/>
-        Paper Bags
+        JUTE BAGS
+        </div></Link>
+
+
+        <Link href={'/Product/PAPERBAGS'}><div className={`${active ? 'bg-secondary-100' : 'bg-primary-100'} w-auto p-2 hover:bg-secondary-100 text-white font-semibold flex gap-2 transition-all`}>
+            <AiFillShopping className='mt-[2px]'/>
+        PAPER BAGS
         </div></Link>
 
         <Link href={'/Product/JUMBO-BAGS'}><div className={`${active ? 'bg-secondary-100' : 'bg-primary-100'} w-auto p-2 hover:bg-secondary-100 text-white font-semibold flex gap-2 transition-all`}>
             <AiFillShopping className='mt-[2px]'/>
-        Jumbo Bags/ FIBCS/ Big Bags
+        JUMBO BAGS/ FIBCS/ BIG BAGS
         </div></Link>
 
         

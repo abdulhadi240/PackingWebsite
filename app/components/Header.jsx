@@ -9,6 +9,7 @@ import {AiOutlineMenu} from 'react-icons/ai'
 import {HiOutlineMenuAlt1} from 'react-icons/hi'
 import {easeInOut, motion} from 'framer-motion'
 import MobileMenu from "./MobileMenu";
+import Link from "next/link";
 
 export const Header = () => {
     const [mobilemenu , setMobileMenu] = useState(true);
@@ -57,9 +58,9 @@ export const Header = () => {
     transition={{duration:1}}
      className={` xl:px-24 lg:px-10   w-full h-auto  flex items-center justify-between z-20 sticky top-0 transition-transform duration-300 ${show} ${color} `}>
       <div className={`flex h-24 w-full lg:px-0 mt-1 justify-between `}>
-        <div className="-mt-6">
+        <Link href={'/'}><div className="-mt-6 cursor-pointer">
           <Image src={"/L.png"} height={200} width={170} alt="logo"/>
-        </div>
+        </div></Link>
         <div className="  gap-2 hidden sm:flex sm:gap-2 mt-8 ">
           <div className="hidden sm:block">
           <Info
@@ -104,9 +105,9 @@ export const Header = () => {
         )}
         
 
-        <div className="-mt-6">
-          <Image src={"/L.png"} height={200} width={170} alt="logo"/>
-        </div>
+        <Link href={'/'}><div className="mt-4 cursor-pointer">
+          <Image src={"/logo4.png"} height={120} width={120} alt="logo"/>
+        </div></Link>
       </div>
       {!mobilemenu && (
             <motion.div initial={{x:-400}}

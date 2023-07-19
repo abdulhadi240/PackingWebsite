@@ -12,7 +12,7 @@ const page = () => {
 
     const body = (
         <div className='mt-3'>
-        <Details heading={'BOPP PRINTED ROLLS AND FLEXIBLE PACKAGING '} image={'/OPP.png'}>
+        <Details heading={'OPP PRINTED ROLLS AND PACKAGING '} image={'/OPP.png'}>
         BOPP (Biaxially Oriented Polypropylene) printed rolls are a type of flexible packaging material commonly used in various industries for wrapping and protecting products. BOPP is a versatile and widely used material due to its excellent clarity, high tensile strength, and resistance to moisture and chemicals.
 BOPP Material: BOPP is a type of polypropylene film that undergoes a biaxial orientation process, which stretches the film in both the machine and transverse directions. This orientation imparts several beneficial properties to the film, including increased tensile strength, optical clarity, and barrier properties.
 Printing: BOPP films can be printed using various printing techniques, such as rotogravure or flexographic printing. This allows for high-quality graphics and designs to be applied to the surface of the film, enhancing product visibility and branding.

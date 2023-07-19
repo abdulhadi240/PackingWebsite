@@ -12,7 +12,7 @@ const page = () => {
 
     const body = (
         <div className='mt-3'>
-        <Details heading={'PP (POLYPROPYLENE) WOVEN BAGS AND FABRICS'} image={'/PP-WOVEN.png'}>
+        <Details heading={'PP (POLYPROPYLENE) WOVEN BAGS'} image={'/PP-WOVEN.png'}>
         Over the years, PP Woven Sacks have proved their excellence in the packaging unit of several industries. 
         These sacks are considered as the toughest packaging bags, wide in demand in the industries of sugar, gains, milling and food. 
         As per your requirement, the sacks can be UV treated for longer life. Please contact our Sales & Exports team for any further 
@@ -171,7 +171,7 @@ const page = () => {
         <div>
             <Header />
             <Menu color={'white'} background={true} border={true} margin={20} active={true} hide={true} />
-            <Inside priority={true} image={'/product-back.jpg'}  body={body} />
+            <Inside slider={true} priority={true} image={'/product-back.jpg'}  body={body} />
             <div className='overflow-hidden'>
           <ProductSlider/>
         </div>
