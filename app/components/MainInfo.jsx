@@ -5,7 +5,7 @@ const Productcard = dynamic(()=>import('./Products/Productcard'))
 const MainInfo = () => {
   return (
     <div>
-      <div className='w-full h-[500px] sm:h-64 bg-primary-100 text-white  '>
+      <div className='w-full h-auto pt-4 pb-4 bg-primary-100 text-white  '>
         <h1 className='flex justify-center text-center pt-8 text-2xl font-bold tracking-wider'>WELCOME!</h1>
         <p className=' sm:text-center lg:w-auto flex justify-center  mx-10 lg:text-lg lg:py-4 sm:py-0 py-2'>
           Introducing CloudFour Packages: Your Trusted Provider of High-Quality PP Woven Bags, BOPP Lamination Bags,  paper Sack , OPP prineted rolls and PP transparent laminated sheets 
@@ -56,7 +56,7 @@ const MainInfo = () => {
 
           <div className='flex justify-center sm:block'>
             <Productcard
-              image={'/1.png'}
+              image={'/bopp1.png'}
               text={'Our BOPP bags have a volume of 5 kgs - 50 kgs and are suitable for packaging'}
               heading={'BIAXIALLY ORIENTED POLYPROPYLENE'}
               links={'/Product/BOPPS-BAGS'}

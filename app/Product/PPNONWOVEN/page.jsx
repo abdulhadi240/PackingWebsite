@@ -137,7 +137,7 @@ const page = () => {
         <div>
             <Header />
             <Menu color={'white'} background={true} border={true} margin={20} active={true} hide={true} />
-            <Inside priority={true} image={'/product-back.jpg'} body={body} />
+            <Inside priority={true} image={'/product-back.jpg'} slider={true} body={body} />
             <div className='overflow-hidden'>
                 <ProductSlider />
             </div>
