@@ -25,19 +25,19 @@ const SideMenu = ({active}) => {
 
         <Link href={'/Product/COTTON-BAGS'}><div className={`${active ? 'bg-secondary-100' : 'bg-primary-100'} w-auto p-2 hover:bg-secondary-100 text-white font-semibold flex gap-2 transition-all`}>
             <AiFillShopping className='mt-[2px]'/>
-        Cotton Bags
+        OPP Rolls
         </div></Link>
 
 
-        <Link href={'/Product/JUTE-BAGS'}><div className={`${active ? 'bg-secondary-100' : 'bg-primary-100'} w-auto p-2 hover:bg-secondary-100 text-white font-semibold flex gap-2 transition-all`}>
+        <Link href={'/Product/OPP-ROLLS'}><div className={`${active ? 'bg-secondary-100' : 'bg-primary-100'} w-auto p-2 hover:bg-secondary-100 text-white font-semibold flex gap-2 transition-all`}>
             <AiFillShopping className='mt-[2px]'/>
         Jute Bags
         </div></Link>
 
 
-        <Link href={'/Product/CEMENT-BAGS'}><div className={`${active ? 'bg-secondary-100' : 'bg-primary-100'} w-auto p-2 hover:bg-secondary-100 text-white font-semibold flex gap-2 transition-all`}>
+        <Link href={'/Product/PAPAERBAGS'}><div className={`${active ? 'bg-secondary-100' : 'bg-primary-100'} w-auto p-2 hover:bg-secondary-100 text-white font-semibold flex gap-2 transition-all`}>
             <AiFillShopping className='mt-[2px]'/>
-        Cement & Block Bottom Bags
+        Paper Bags
         </div></Link>
 
         <Link href={'/Product/JUMBO-BAGS'}><div className={`${active ? 'bg-secondary-100' : 'bg-primary-100'} w-auto p-2 hover:bg-secondary-100 text-white font-semibold flex gap-2 transition-all`}>

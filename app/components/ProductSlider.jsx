@@ -40,14 +40,14 @@ const ProductSlider = () => {
             >
                 <div>
                     <Productcard
-                        image={'/n1.jpg'}
+                        image={'/PP-WOVEN.png'}
                         links={'/Product/PPWOVEN'}
                         buttonText={'PP WOVEN BAGS AND FABRICS'}
                         large={false} />
                 </div>
                 <div>
                     <Productcard
-                        image={'/n2.jpg'}
+                        image={'/non-woven.png'}
                         links={'/Product/PPNONWOVEN'}
                         buttonText={'PP NON-WOVEN BAGS'}
                         large={false} />
@@ -59,13 +59,13 @@ const ProductSlider = () => {
                         buttonText={'ORIENTED POLYPROPYLENE'}
                         large={false} />
                 </div>
-                <div>
+                {/* <div>
                     <Productcard
-                        image={'/n6.jpg'}
-                        links={'/Product/COTTON-BAGS'}
-                        buttonText={'COTTON BAGS'}
+                        image={'/OPP.png'}
+                        links={'/Product/OPP-ROLLS'}
+                        buttonText={'OPP ROLLS '}
                         large={false} />
-                </div>
+                </div> */}
                 <div>
                     <Productcard
                         image={'/n7.jpg'}
@@ -75,9 +75,9 @@ const ProductSlider = () => {
                 </div>
                 <div>
                     <Productcard
-                        image={'/n8.jpeg'}
-                        links={'/Product/CEMENT-BAGS'}
-                        buttonText={'CEMENT & BLOCK BOTTOM BAGS'}
+                        image={'/Paper.png'}
+                        links={'/Product/PAPERBAGS'}
+                        buttonText={'PAPER BAGS'}
                         large={false} />
                 </div>
                 <div>

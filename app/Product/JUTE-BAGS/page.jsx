@@ -1,12 +1,13 @@
 import React from 'react'
 import { Header } from '../../components/Header'
-import Footer from '../../components/Footer/Footer'
 import Menu from '../../components/Menu'
 import Inside from '../../components/Inside'
 import Details from '@/app/components/Products/Details'
-import ProductSlider from '@/app/components/ProductSlider'
 import Details1 from '@/app/components/Details1'
 import Points from '@/app/components/Points'
+import dynamic from 'next/dynamic'
+const Footer = dynamic(()=>import('@/app/components/Footer/Footer'))
+const ProductSlider = dynamic(()=>import('@/app/components/ProductSlider'))
 
 const page = () => {
 

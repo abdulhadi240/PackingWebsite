@@ -36,7 +36,7 @@ const MainInfo = () => {
         <div className='mt-10 grid grid-rows-1 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-2 xl:grid-cols-3 gap-10 sm:gap-16'>
           <div className='flex justify-center sm:block'>
             <Productcard
-              image={'/n1.jpg'}
+              image={'/PP-WOVEN.png'}
               text={'Over the years, PP Woven Sacks have proved their excellence in the packaging unit of several industries.'}
               heading={'PP WOVEN BAGS AND FABRICS'}
               links={'/Product/PPWOVEN'}
@@ -46,7 +46,7 @@ const MainInfo = () => {
 
           <div className='flex justify-center sm:block'>
             <Productcard
-              image={'/n2.jpg'}
+              image={'/non-woven.png'}
               text={'We are into manufacturing of PP Non Woven Bags in different size'}
               heading={'PP NON-WOVEN BAGS '}
               links={'/Product/PPNONWOVEN'}
@@ -56,20 +56,21 @@ const MainInfo = () => {
 
           <div className='flex justify-center sm:block'>
             <Productcard
-              image={'/n5.jpg'}
+              image={'/1.png'}
               text={'Our BOPP bags have a volume of 5 kgs - 50 kgs and are suitable for packaging'}
               heading={'BIAXIALLY ORIENTED POLYPROPYLENE'}
               links={'/Product/BOPPS-BAGS'}
               buttonText={'Read More'}
-              large={true} />
+              large={true}
+              small={true} />
           </div>
 
           <div className='flex justify-center sm:block'>
             <Productcard
-              image={'/n6.jpg'}
-              text={'The Packaging sacks offered by us are designed and manufactured using superior quality cotton '}
-              heading={'COTTON BAGS'}
-              links={'/Product/COTTON-BAGS'}
+              image={'/OPP.png'}
+              text={'BOPP printed rolls are versatile and widely used material due to its excellent clarity, high tensile strength, and resistance to moisture and chemicals. '}
+              heading={'OPP PRINTED ROLLS'}
+              links={'/Product/OPP-ROLLS'}
               buttonText={'Read More'}
               large={true} />
           </div>
@@ -86,10 +87,10 @@ const MainInfo = () => {
 
           <div className='flex justify-center sm:block'>
             <Productcard
-              image={'/n8.jpeg'}
-              text={'Our Valve Bags mostly find application in Cement Industry across the world. We have recently added a new product'}
-              heading={'CEMENT & BLOCK BOTTOM BAGS'}
-              links={'/Product/CEMENT-BAGS'}
+              image={'/Paper.png'}
+              text={'These bags are made from a combination of high-quality paper and laminated materials'}
+              heading={'PAPER LAMINATED BAGS ( BLOCK BOTTOM)'}
+              links={'/Product/PAPERBAGS'}
               buttonText={'Read More'}
               large={true} />
           </div>

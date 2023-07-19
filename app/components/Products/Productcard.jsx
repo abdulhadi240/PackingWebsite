@@ -3,7 +3,7 @@ import React from 'react'
 import Image from 'next/image'
 import {motion} from 'framer-motion'
 import Link from 'next/link'
-const Productcard = ({image , text , buttonText , links , heading ,large}) => {
+const Productcard = ({image , text , buttonText , links , heading ,large , small}) => {
   return (
     <motion.div 
     initial={{ opacity: 0, y: 50 }}
@@ -11,7 +11,13 @@ const Productcard = ({image , text , buttonText , links , heading ,large}) => {
     transition={{ duration: 1.5, ease: 'easeOut' }} 
     className={`${large?'w-[340px] sm:w-[370px] xl:w-[400px]':'w-[240px] sm:w-[300px] xl:w-[300px]'} h-auto p-4 border-[2px] text-center group cursor-pointer shadow-lg rounded-md`}>
         <div className='flex justify-center group-hover:scale-105 transition-all '>
-            <Image src={image} width={250} height={250} alt='product_img'/>
+            {small?(
+            <Image src={image} width={150} height={150} alt='product_img'/>
+
+            ):(
+                <Image src={image} width={250} height={250} alt='product_img'/>
+
+            )}
         </div>
         <div>
             <h1 className='mb-4 pt-2 text-secondary-100 font-bold'>{heading}</h1>

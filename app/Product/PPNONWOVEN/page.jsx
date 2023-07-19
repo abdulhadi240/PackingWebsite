@@ -1,18 +1,19 @@
 import React from 'react'
 import { Header } from '../../components/Header'
-import Footer from '../../components/Footer/Footer'
 import Menu from '../../components/Menu'
 import Inside from '../../components/Inside'
 import Details from '@/app/components/Products/Details'
-import ProductSlider from '@/app/components/ProductSlider'
 import Details1 from '@/app/components/Details1'
 import Points from '@/app/components/Points'
+import dynamic from 'next/dynamic'
+const Footer = dynamic(()=>import('@/app/components/Footer/Footer'))
+const ProductSlider = dynamic(()=>import('@/app/components/ProductSlider'))
 
 const page = () => {
 
     const body = (
         <div className='mt-3'>
-            <Details heading={'PP NON WOVEN ( LAMINATED COATED INSIDE & WITHOUT LAMINATION) BAGS'} image={'/n2.jpg'}>
+            <Details heading={'PP NON WOVEN ( LAMINATED COATED INSIDE & WITHOUT LAMINATION) BAGS'} image={'/non-woven.png'}>
                 Over the years, PP Woven Sacks have proved their excellence in the packaging unit of several industries.
                 These sacks are considered as the toughest packaging bags, wide in demand in the industries of sugar, gains, milling and food.
                 As per your requirement, the sacks can be UV treated for longer life. Please contact our  Sales & Exports team for any further
