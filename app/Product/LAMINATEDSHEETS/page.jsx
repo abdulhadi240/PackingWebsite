@@ -13,11 +13,10 @@ const page = () => {
 
     const body = (
         <div className='mt-3'>
-        <Details heading={'JUTE BAGS'} image={'/n7.jpg'}>
-        Our organization is highly rated in the field of providing Twill Jute Bag to its clients. 
-        Our products are known for its unique designing and distinct features such as long term sustaining and high in quality. 
-        They are finely processed and tested by the team of highly knowledgeable and experienced professional at advanced units. 
-        Twill Jute Bag is used for packing variety of products.
+        <Details heading={'PP LAMINATED SHEETS'} image={'/laminate.jpg'}>
+        PP (Polypropylene) laminated sheets are composite materials made by bonding layers of polypropylene with other materials, typically paper or cardboard. The lamination process involves applying heat and pressure to create a strong bond between the layers, resulting in a durable and versatile sheet that finds applications in various industries.
+Material Composition: PP laminated sheets consist of a core material, which is usually paper or cardboard, sandwiched between two layers of polypropylene. The polypropylene layers act as protective barriers, providing additional strength and resistance to moisture and chemicals.
+Lamination Process: The lamination process involves applying an adhesive or extruded polypropylene film to the surface of the core material. Heat and pressure are then used to bond the layers together, creating a seamless and sturdy sheet.
         </Details>
 
         <Details1 heading={'ADVANTAGES'} >
@@ -26,27 +25,27 @@ const page = () => {
                         <div className='sm:flex sm:gap-14 sm:flex-row lg:gap-36 '>
                             <div>
                                 <li className='mt-8'>
-                                    <span className='text-md'><Points text={'Sustainability'} /></span>
+                                    <span className='text-md'><Points text={'Durability'} /></span>
 
                                 </li>
 
                                 <li className='mt-3'>
-                                    <span className='text-md'><Points text={'Biodegradability'} /></span>
+                                    <span className='text-md'><Points text={'Chemical Resistance'} /></span>
 
                                 </li>
 
                                 <li className='mt-3'>
-                                    <span className='text-md'><Points text={'Strength and Durability'} /></span>
+                                    <span className='text-md'><Points text={'Moisture Resistance'} /></span>
 
                                 </li>
 
                                 <li className='mt-3'>
-                                    <span className='text-md'><Points text={'Breathability'} /></span>
+                                    <span className='text-md'><Points text={'Lightweight'} /></span>
 
                                 </li>
 
                                 <li className='mt-3'>
-                                    <span className='text-md'><Points text={'Thermal Insulation'} /></span>
+                                    <span className='text-md'><Points text={'Cost-Effective'} /></span>
 
                                 </li>
 
@@ -81,27 +80,27 @@ const page = () => {
                         <div className='sm:flex sm:gap-14 lg:gap-36 sm:flex-row sm:justify-start '>
                             <div>
                                 <li className='mt-8'>
-                                    <span className='text-md'><Points text={'Shopping Bags'} /></span>
+                                    <span className='text-md'><Points text={'Packaging Industry'} /></span>
 
                                 </li>
 
                                 <li className='mt-3'>
-                                    <span className='text-md'><Points text={'Promotional Bags'} /></span>
+                                    <span className='text-md'><Points text={'Graphic Arts and Printing'} /></span>
 
                                 </li>
 
                                 <li className='mt-3'>
-                                    <span className='text-md'><Points text={'Fashion and Accessories'} /></span>
+                                    <span className='text-md'><Points text={'Stationery and Office Supplies'} /></span>
 
                                 </li>
 
                                 <li className='mt-3'>
-                                    <span className='text-md'><Points text={'Gift Bags'} /></span>
+                                    <span className='text-md'><Points text={'Advertising and Display'} /></span>
 
                                 </li>
 
                                 <li className='mt-3'>
-                                    <span className='text-md'><Points text={'Home Decor and Crafts'} /></span>
+                                    <span className='text-md'><Points text={'Automotive Industry'} /></span>
 
                                 </li>
 
@@ -112,14 +111,11 @@ const page = () => {
                             <div>
 
                                 <li className='sm:mt-8 mt-3'>
-                                    <span className='text-md'><Points text={'Agriculture and Farming'} /></span>
+                                    <span className='text-md'><Points text={'Building and Construction'} /></span>
 
                                 </li>
 
-                                <li className='mt-3'>
-                                    <span className='text-md'><Points text={'Event and Conference Bags'} /></span>
-
-                                </li>
+                                
 
                                 
                             </div>
@@ -132,8 +128,7 @@ const page = () => {
             <div className='lg:h-36 h-auto w-full bg-secondary-100 text-center flex justify-center mt-10'>
                 <h1
                     className='mx-16  my-10 text-white text-lg font-bold'>
-                    Their eco-friendly properties, strength, and natural aesthetics make them a preferred choice for individuals, businesses, and
-                     organizations seeking sustainable alternatives to plastic bags.
+                     PP laminated sheets offer a balance of strength, moisture resistance, printability, and cost-effectiveness, making them a popular choice in diverse industries for a wide range of applications.
                 </h1>
 
             </div>

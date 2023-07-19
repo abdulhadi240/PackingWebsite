@@ -77,10 +77,10 @@ const MainInfo = () => {
 
           <div className='flex justify-center sm:block'>
             <Productcard
-              image={'/n7.jpg'}
-              text={'Our organization is highly rated in the field of providing Twill Jute Bag to its clients'}
-              heading={'JUTE BAGS'}
-              links={'/Product/JUTE-BAGS'}
+              image={'/laminate.jpg'}
+              text={'PP laminated sheets offer a balance of strength, moisture resistance, printability, and cost-effectiveness'}
+              heading={'PP laminated sheet'}
+              links={'/Product/LAMINATEDSHEETS'}
               buttonText={'Read More'}
               large={true} />
           </div>
@@ -95,15 +95,7 @@ const MainInfo = () => {
               large={true} />
           </div>
 
-          <div className='flex justify-center sm:block'>
-            <Productcard
-              image={'/n9.jpg'}
-              text={'For transportation and storage of bulk material, we have Big Bags that has a capacity of 200-2500 kgs'}
-              heading={'JUMBO /FIBCS / BIG BAGS'}
-              links={'/Product/JUMBO-BAGS'}
-              buttonText={'Read More'}
-              large={true} />
-          </div>
+         
 
         </div>
       </div>

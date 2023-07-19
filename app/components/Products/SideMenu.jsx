@@ -29,9 +29,9 @@ const SideMenu = ({active}) => {
         </div></Link>
 
 
-        <Link href={'/Product/JUTE-BAGS'}><div className={`${active ? 'bg-secondary-100' : 'bg-primary-100'} w-auto p-2 hover:bg-secondary-100 text-white font-semibold flex gap-2 transition-all`}>
+        <Link href={'/Product/LAMINATEDSHEETS'}><div className={`${active ? 'bg-secondary-100' : 'bg-primary-100'} w-auto p-2 hover:bg-secondary-100 text-white font-semibold flex gap-2 transition-all`}>
             <AiFillShopping className='mt-[2px]'/>
-        JUTE BAGS
+            PP LAMINATED SHEETS
         </div></Link>
 
 
@@ -40,10 +40,7 @@ const SideMenu = ({active}) => {
         PAPER BAGS
         </div></Link>
 
-        <Link href={'/Product/JUMBO-BAGS'}><div className={`${active ? 'bg-secondary-100' : 'bg-primary-100'} w-auto p-2 hover:bg-secondary-100 text-white font-semibold flex gap-2 transition-all`}>
-            <AiFillShopping className='mt-[2px]'/>
-        JUMBO BAGS/ FIBCS/ BIG BAGS
-        </div></Link>
+        
 
         
         

@@ -131,7 +131,7 @@ Reinforced Handles: Paper laminated bags often have reinforced handles for comfo
             <div className='lg:h-36 h-auto w-full bg-secondary-100 text-center flex justify-center mt-10'>
                 <h1
                     className='mx-16  my-10 text-white text-lg font-bold'>
-                    paper laminated bags with block bottoms offer an attractive and environmentally responsible packaging solution for a diverse range of products. Their strength, versatility, and branding capabilities make them a popular choice in many industries.
+                    Paper laminated bags with block bottoms offer an attractive and environmentally responsible packaging solution for a diverse range of products. Their strength, versatility, and branding capabilities make them a popular choice in many industries.
                 </h1>
 
             </div>

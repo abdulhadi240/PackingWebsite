@@ -54,10 +54,11 @@ const ProductSlider = () => {
                 </div>
                 <div>
                     <Productcard
-                        image={'/n5.jpg'}
+                        image={'/1.png'}
                         links={'/Product/BOPPS-BAGS'}
-                        buttonText={'ORIENTED POLYPROPYLENE'}
-                        large={false} />
+                        buttonText={'BOPP  BAGS'}
+                        large={false}
+                        small={true} />
                 </div>
                 {/* <div>
                     <Productcard
@@ -66,13 +67,13 @@ const ProductSlider = () => {
                         buttonText={'OPP ROLLS '}
                         large={false} />
                 </div> */}
-                <div>
+                {/* <div>
                     <Productcard
-                        image={'/n7.jpg'}
-                        links={'/Product/JUTE-BAGS'}
-                        buttonText={'JUTE BAGS'}
+                        image={'/laminate.jpg'}
+                        links={'/Product/LAMINATEDSHEETS'}
+                        buttonText={'LAMINATED SHEETS'}
                         large={false} />
-                </div>
+                </div> */}
                 <div>
                     <Productcard
                         image={'/Paper.png'}
@@ -80,13 +81,7 @@ const ProductSlider = () => {
                         buttonText={'PAPER BAGS'}
                         large={false} />
                 </div>
-                <div>
-                    <Productcard
-                        image={'/n9.jpg'}
-                        links={'/Product/JUMBO-BAGS'}
-                        buttonText={'JUMBO /FIBCS / BIG BAGS'}
-                        large={false} />
-                </div>
+                
             </Carousel>
         </div>
     )
