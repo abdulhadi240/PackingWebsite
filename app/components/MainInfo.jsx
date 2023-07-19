@@ -4,7 +4,7 @@ import dynamic from 'next/dynamic'
 
 const Productcard = dynamic(() => import('./Products/Productcard'))
 const MainInfo = () => {
-  const [show, setShow] = useState(true)
+  const [show, setShow] = useState(false)
   return (
     <div>
       <div className='bg-primary-100 transition-al'>
