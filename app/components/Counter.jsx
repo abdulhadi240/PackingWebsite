@@ -12,10 +12,10 @@ const Counter = () => {
 
 
   const yearsOfExperience = 25;
-  const clientsCount = 1000;
+  const clientsCount = 1.5;
   const EmployeeCount = 500;
-  const BagsCount = 1500;
-  const wovenCount = 1000; // Update this value with your desired count for 'others'
+  const BagsCount = 1.5;
+  const wovenCount = 2; // Update this value with your desired count for 'others'
 
   useEffect(() => {
     const options = {
@@ -60,23 +60,23 @@ const Counter = () => {
 
         if (clientsCounter < clientsCount) {
           setClients(clientsCounter);
-          clientsCounter += 30; // Update this increment value as desired
+          clientsCounter += 0.5; // Update this increment value as desired
         }
 
         if (EmployeeCounter < EmployeeCount) {
           setEmployee(EmployeeCounter);
-          EmployeeCounter += 30; // Update this increment value as desired
+          EmployeeCounter += 10; // Update this increment value as desired
         }
 
         if (BagsCounter < BagsCount) {
             setBags(BagsCounter);
-            BagsCounter += 30; // Update this increment value as desired
+            BagsCounter += 0.2; // Update this increment value as desired
           }
 
           
           if (wovenCounter < wovenCount) {
             setWoven(wovenCounter);
-            wovenCounter += 30; // Update this increment value as desired
+            wovenCounter += 0.5; // Update this increment value as desired
           }
   
 
@@ -97,7 +97,7 @@ const Counter = () => {
         <div className="text-gray-600">Years of Experience</div>
       </div>
       <div className="text-center mx-6">
-        <div className="text-4xl sm:text-6xl font-bold text-gray-800">{clients}+</div>
+        <div className="text-4xl sm:text-6xl font-bold text-gray-800">{clients}K+</div>
         <div className="text-gray-600">Customer</div>
       </div>
       <div className="text-center mx-6">
@@ -105,13 +105,13 @@ const Counter = () => {
         <div className="text-gray-600">Employee</div>
       </div>
       <div className="text-center mx-6">
-        <div className="text-4xl sm:text-6xl font-bold text-gray-800">{Bags}+</div>
+        <div className="text-4xl sm:text-6xl font-bold text-gray-800">{Bags}M+</div>
         <div className="text-gray-600">Bags Delivered</div>
       </div>
     </div>
     <div className='flex justify-center lg:mt-6'>
     <div className="text-center w-full">
-      <div className="text-4xl sm:text-6xl font-bold text-gray-800">{woven}+</div>
+      <div className="text-4xl sm:text-6xl font-bold text-gray-800">{woven}M+</div>
       <div className="text-gray-600 w-full">PP Woven Bags</div>
     </div>
     </div>
