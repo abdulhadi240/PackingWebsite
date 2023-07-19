@@ -13,7 +13,7 @@ const page = () => {
 
     const body = (
         <div className='mt-3'>
-        <Details heading={'BOPP LAMINATED BAGS'} image={'/1.png'} small={true}>
+        <Details heading={'BOPP LAMINATED BAGS'} image={'/bopp1.png'} small={true}>
         Our BOPP bags have a volume of 5 kgs - 50 kgs and are suitable for packaging Detergent Powder, Flour, Animal Feed, Food Grains, etc.
          The outer coated layer of BOPP bags is made attractive and extra glossy by using BOPP film
          (printed) which is sandwich laminated with PP fabric. This makes our BOPP bags ideal for advertising.
@@ -140,7 +140,7 @@ const page = () => {
         <div>
             <Header />
             <Menu color={'white'} background={true} border={true} margin={20} active={true} hide={true} />
-            <Inside priority={true} image={'/bopp.png'} slider={true} body={body} />
+            <Inside priority={true} image={'/bopp1.png'} slider={true} body={body} />
             <div className='overflow-hidden'>
           <ProductSlider/>
         </div>

@@ -8,8 +8,8 @@ const ChatwoptWidget = () => {
       hideMessageBubble: false,
       position: "right",
       locale: "en",
-      type: "standard",
-      expanded: true
+      type: "expanded_bubble",
+      expanded: false
     };
 
     const script = document.createElement("script");

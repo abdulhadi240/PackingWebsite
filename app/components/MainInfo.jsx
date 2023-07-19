@@ -93,7 +93,7 @@ const MainInfo = () => {
 
           <div className='flex justify-center sm:block'>
             <Productcard
-              image={'/laminate.jpg'}
+              image={'/laminated.jpg'}
               text={'PP laminated sheets offer a balance of strength, moisture resistance, printability, and cost-effectiveness'}
               heading={'PP laminated sheet'}
               links={'/Product/LAMINATEDSHEETS'}

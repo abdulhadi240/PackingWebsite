@@ -42,7 +42,7 @@ const ProductSlider = () => {
                     <Productcard
                         image={'/PP-WOVEN.png'}
                         links={'/Product/PPWOVEN'}
-                        buttonText={'PP WOVEN BAGS AND FABRICS'}
+                        buttonText={'PP WOVEN BAGS'}
                         large={false} />
                 </div>
                 <div>

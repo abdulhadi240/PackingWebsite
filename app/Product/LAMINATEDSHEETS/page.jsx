@@ -13,7 +13,7 @@ const page = () => {
 
     const body = (
         <div className='mt-3'>
-        <Details heading={'PP LAMINATED SHEETS'} image={'/laminate.jpg'}>
+        <Details heading={'PP LAMINATED SHEETS'} image={'/laminated.jpg'}>
         PP (Polypropylene) laminated sheets are composite materials made by bonding layers of polypropylene with other materials, typically paper or cardboard. The lamination process involves applying heat and pressure to create a strong bond between the layers, resulting in a durable and versatile sheet that finds applications in various industries.
 Material Composition: PP laminated sheets consist of a core material, which is usually paper or cardboard, sandwiched between two layers of polypropylene. The polypropylene layers act as protective barriers, providing additional strength and resistance to moisture and chemicals.
 Lamination Process: The lamination process involves applying an adhesive or extruded polypropylene film to the surface of the core material. Heat and pressure are then used to bond the layers together, creating a seamless and sturdy sheet.
