@@ -58,7 +58,7 @@ export const Header = () => {
     transition={{duration:1}}
      className={` xl:px-24 lg:px-10   w-full h-auto  flex items-center justify-between z-20 sticky top-0 transition-transform duration-300 ${show} ${color} `}>
       <div className={`flex h-24 w-full lg:px-0 mt-1 justify-between `}>
-        <Link href={'/'}><div className="-mt-6 cursor-pointer">
+        <Link href={'/'}><div className="-mt-6 cursor-pointer -z-1">
           <Image src={"/L.png"} height={200} width={170} alt="logo"/>
         </div></Link>
         <div className="  gap-2 hidden sm:flex sm:gap-2 mt-8 ">

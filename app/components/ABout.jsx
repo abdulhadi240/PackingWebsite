@@ -37,7 +37,7 @@ const ABout = () => {
                     transition={{ duration: 0.5, ease: 'easeOut' }}
                     className='mt-2'>Our vision is to establish ourselves as pioneers and industry leaders in the GCC region, serving as the ultimate one-stop solution for all packaging needs, specifically in the PP woven/non-woven bags and sacks market. With a forward-looking approach, we aim to anticipate and cater to future market demands by continuously improving and embracing the latest trends and technologies. By staying ahead of the game, we strive to maintain our position at the forefront of the industry.</motion.p>
 
-                <h1 className='text-[24px] text-secondary-100 mt-10 font-bold'>No quality compromise.</h1>
+                <h1 className='text-[24px] text-secondary-100 mt-10 font-bold'>NO QUALITY COMPROMISE.</h1>
                 <motion.p
                     initial={{ opacity: 0, y: 50 }}
                     whileInView={{ opacity: 1, y: 0 }}
@@ -71,7 +71,7 @@ const ABout = () => {
                     initial={{ opacity: 0, y: 50 }}
                     whileInView={{ opacity: 1, y: 0 }}
                     transition={{ duration: 0.5, ease: 'easeOut' }}
-                    className='mx-16  my-10 text-white text-lg font-bold'>"We are leading the Way in Polypropylene Woven Sacks, Cotton, Jute, and Non-Woven Bags: Delivering Unmatched Packaging Solutions in the Middle East"</motion.h1>
+                    className='mx-16  my-10 text-white text-lg font-bold'>"We are leading the Way in Polypropylene Woven Sacks, Cotton and Non-Woven Bags: Delivering Unmatched Packaging Solutions in the Middle East"</motion.h1>
 
             </div>
 

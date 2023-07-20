@@ -2,9 +2,9 @@ import ChatwoptWidget from './components/ChatWoot'
 import Whatsapp from './components/Whatsapp'
 
 import './globals.css'
-import { Roboto } from 'next/font/google'
+import { Manrope } from 'next/font/google'
 
-const inter = Roboto({ 
+const inter = Manrope({ 
   subsets: ['latin'],
   weight:['400']
 })

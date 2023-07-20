@@ -40,7 +40,7 @@ const MainInfo = () => {
         
       
 
-      <div className=' lg:mx-20 mt-6'>
+      <div className=' lg:mx-14 mt-6'>
         <div className='flex justify-center text-3xl'>
           <h1 className='font-bold text-gray-400 mb-2'>PRODUCTS</h1>
         </div>
