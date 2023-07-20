@@ -75,7 +75,7 @@ export const Header = () => {
           <Info
             Icon={IoMdCall}
             Text={"Call us"}
-            Label={"+971 555 651 604"}
+            Label={"+971 552 302 058"}
             src={'/'}
           />
           </div>
@@ -91,8 +91,8 @@ export const Header = () => {
           <Info
             Icon={IoLogoWhatsapp}
             Text={"Whatsapp"}
-            Label={"+971 555 651 604"}
-            src={'https://api.whatsapp.com/send/?phone=%2B971555651604&text&type=phone_number&app_absent=0'}
+            Label={"+971 552 302 058"}
+            src={'https://api.whatsapp.com/send/?phone=%2B971552302058&text&type=phone_number&app_absent=0'}
           />
           </div>
         </div>
