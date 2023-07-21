@@ -1,5 +1,6 @@
 import ChatwoptWidget from './components/ChatWoot'
 import Whatsapp from './components/Whatsapp'
+import { Analytics } from '@vercel/analytics/react';
 
 import './globals.css'
 import { Manrope } from 'next/font/google'
@@ -21,6 +22,7 @@ export default function RootLayout({ children }) {
         {children}
         <Whatsapp/>
         <ChatwoptWidget/>
+        <Analytics />
 
         </body>
 
