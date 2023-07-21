@@ -1,5 +1,6 @@
 'use client'
 import { useEffect, useRef, useState } from 'react';
+import Image from 'next/image';
 
 const Counter = () => {
   const counterRef = useRef(null);
@@ -50,7 +51,7 @@ const Counter = () => {
       let clientsCounter = 0;
       let EmployeeCounter = 0;
       let BagsCounter = 0;
-      let wovenCounter= 0;
+      let wovenCounter = 0;
 
       const interval = setInterval(() => {
         if (yearsCounter < yearsOfExperience) {
@@ -69,16 +70,16 @@ const Counter = () => {
         }
 
         if (BagsCounter < BagsCount) {
-            setBags(BagsCounter);
-            BagsCounter += 0.2; // Update this increment value as desired
-          }
+          setBags(BagsCounter);
+          BagsCounter += 0.2; // Update this increment value as desired
+        }
 
-          
-          if (wovenCounter < wovenCount) {
-            setWoven(wovenCounter);
-            wovenCounter += 0.5; // Update this increment value as desired
-          }
-  
+
+        if (wovenCounter < wovenCount) {
+          setWoven(wovenCounter);
+          wovenCounter += 0.5; // Update this increment value as desired
+        }
+
 
         if (yearsCounter >= yearsOfExperience && clientsCounter >= clientsCount && EmployeeCounter >= EmployeeCount && BagsCounter >= BagsCount && wovenCounter >= wovenCount) {
           clearInterval(interval);
@@ -90,31 +91,35 @@ const Counter = () => {
   }, [isInView]);
 
   return (
-    <div className='mb-10'>
-    <div ref={counterRef} className="grid grid-cols-2 lg:flex lg:flex-row justify-center gap-16 items-center mt-8">
-      <div className="text-center mx-6">
-        <div className="text-4xl sm:text-6xl font-bold text-gray-800">{years}+</div>
-        <div className="text-gray-600">Years of Experience</div>
+    <div className=''>
+      <div ref={counterRef} className="">
+        <div className='flex  justify-center gap-20'>
+          <div className="text-center mx-6 mt-6">
+            <div className="text-4xl sm:text-6xl font-bold text-gray-800">{years}+</div>
+            <div className="text-gray-600">Years of Experience</div>
+          </div>
+          <div className="text-center mx-6 mt-6">
+            <div className="text-4xl sm:text-6xl font-bold text-gray-800">{clients}K+</div>
+            <div className="text-gray-600">Customer</div>
+          </div>
+        </div>
+        <div className='flex justify-center text-center'>
+        <div className="text-center mt-6 mx-6">
+          <div className="text-4xl sm:text-6xl font-bold text-gray-800">{Employee}+</div>
+          <div className="text-gray-600">Employee</div>
+        </div>
+        </div>
+        <div className='flex justify-center mb-10 gap-20'>
+          <div className="text-center mt-6 mx-6">
+            <div className="text-4xl sm:text-6xl font-bold text-gray-800">{Bags}M+</div>
+            <div className="text-gray-600">Bags Delivered</div>
+          </div>
+          <div className="text-center mt-6 ">
+            <div className="text-4xl sm:text-6xl font-bold text-gray-800">{woven}M+</div>
+            <div className="text-gray-600 w-full">PP Woven Bags</div>
+          </div>
+        </div>
       </div>
-      <div className="text-center mx-6">
-        <div className="text-4xl sm:text-6xl font-bold text-gray-800">{clients}K+</div>
-        <div className="text-gray-600">Customer</div>
-      </div>
-      <div className="text-center mx-6">
-        <div className="text-4xl sm:text-6xl font-bold text-gray-800">{Employee}+</div>
-        <div className="text-gray-600">Employee</div>
-      </div>
-      <div className="text-center mx-6">
-        <div className="text-4xl sm:text-6xl font-bold text-gray-800">{Bags}M+</div>
-        <div className="text-gray-600">Bags Delivered</div>
-      </div>
-    </div>
-    <div className='flex justify-center lg:mt-6'>
-    <div className="text-center w-full">
-      <div className="text-4xl sm:text-6xl font-bold text-gray-800">{woven}M+</div>
-      <div className="text-gray-600 w-full">PP Woven Bags</div>
-    </div>
-    </div>
     </div>
   );
 };
