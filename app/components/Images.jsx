@@ -9,7 +9,7 @@ const Images = () => {
         whileInView={{left:0 , rotate:0}}
         transition={{duration:1}}>
             
-            <Image src={'/success.jpg'} height={700} width={900} />
+            <Image src={'/success.jpg'} height={700} width={900} alt='image'/>
         </motion.div>
     )
 }
