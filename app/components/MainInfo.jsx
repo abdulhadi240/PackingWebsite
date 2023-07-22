@@ -13,13 +13,13 @@ const MainInfo = () => {
           <p className=' sm:text-center lg:w-auto flex justify-center  mx-10 lg:text-lg lg:py-4 sm:py-0 py-2 transition-all'>
             Introducing CloudFour Packages: Your Trusted Provider of High-Quality PP Woven Bags, BOPP Lamination Bags,  paper Sack , OPP prineted rolls and PP transparent laminated sheets
 
-            Established in 1980, CloudFour Packages has emerged as a prominent and trusted brand in the packaging industry. With a focus on delivering superior quality products, we specialize in manufacturing and exporting top-of-the-line PP woven bags, BOPP lamination bags, and PET flakes.
+            Established in 1980, CloudFour Packages has emerged as a prominent and trusted brand in the packaging industry. With a focus on delivering superior quality products, we specialize in manufacturing and exporting top-of-the-line PP woven bags and  BOPP lamination bags.
 
             Our commitment to excellence and customer satisfaction has propelled us to the forefront of the market, where we have gained the trust and confidence of consumers worldwide. We take pride in our ability to provide cost-efficient solutions that never compromise on quality.
 
             At CloudFour Packages, we understand the importance of packaging in safeguarding products and enhancing brand value. That's why our PP woven bags and BOPP lamination bags are meticulously crafted using advanced techniques and state-of-the-art machinery. The result is a range of durable, reliable, and visually appealing packaging solutions that meet the highest industry standards.
 
-            In addition to our expertise in packaging solutions, we have also ventured into the production and export of PET flakes. Our stringent quality control processes ensure that these flakes are of the highest purity, making them suitable for various applications in the plastic industry.
+            In addition to our expertise in packaging solutions, we have also ventured into the production. 
 
             Over the years, CloudFour Packages has built a solid reputation for delivering excellence, meeting deadlines, and providing exceptional customer service. Our professional team of experts is committed to understanding and fulfilling our customers' unique requirements, ensuring that we exceed their expectations with every interaction.
 
@@ -53,7 +53,7 @@ const MainInfo = () => {
             <Productcard
               image={'/PP-WOVEN.png'}
               text={'Over the years, PP Woven Sacks have proved their excellence in the packaging unit of several industries.'}
-              heading={'PP WOVEN BAGS AND FABRICS'}
+              heading={'PP WOVEN BAGS'}
               links={'/Product/PPWOVEN'}
               buttonText={'Read More'}
               large={true} />
