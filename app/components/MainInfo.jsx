@@ -73,7 +73,7 @@ const MainInfo = () => {
             <Productcard
               image={'/bopp1.png'}
               text={'Our BOPP bags have a volume of 5 kgs - 50 kgs and are suitable for packaging'}
-              heading={'BIAXIALLY ORIENTED POLYPROPYLENE'}
+              heading={'BOPP BAGS'}
               links={'/Product/BOPPS-BAGS'}
               buttonText={'Read More'}
               large={true}

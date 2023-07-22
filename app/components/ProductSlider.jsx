@@ -78,7 +78,7 @@ const ProductSlider = () => {
                     <Productcard
                         image={'/Paper.png'}
                         links={'/Product/PAPERBAGS'}
-                        buttonText={'PAPER BAGS'}
+                        buttonText={'PAPER LAMINATED BAGS'}
                         large={false} />
                 </div>
                 
