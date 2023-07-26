@@ -11,7 +11,7 @@ const MainInfo = () => {
         <div className={`w-full overflow-hidden ${show ? 'h-auto' : 'h-[500px]'}  sm:h-auto pt-4   text-white transition-all bg-primary-100 `}>
           <h1 className='flex justify-center text-center pt-8 text-2xl font-bold tracking-wider transition-all'>WELCOME!</h1>
           <p className=' sm:text-center lg:w-auto flex justify-center  mx-10 lg:text-lg lg:py-4 sm:py-0 py-2 transition-all'>
-            Introducing CloudFour Packages: Your Trusted Provider of High-Quality PP Woven Bags, BOPP Lamination Bags,  paper Sack , OPP prineted rolls and PP transparent laminated sheets
+            Introducing CloudFour Packages: Your Trusted Provider of High-Quality PP Woven Bags, BOPP Lamination Bags,  paper Sack , OPP printed rolls and PP transparent laminated sheets
 
             Established in 1980, CloudFour Packages has emerged as a prominent and trusted brand in the packaging industry. With a focus on delivering superior quality products, we specialize in manufacturing and exporting top-of-the-line PP woven bags and  BOPP lamination bags.
 
